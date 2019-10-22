@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { withRouter } from "next/router";
 
-import { SITE_WIDTH, SITE_PADDING } from "../vars";
+import { SITE_WIDTH, SITE_PADDING, THEME_COLOR } from "../vars";
+import { darken } from "polished";
 
 function Nav() {
   return (
@@ -21,11 +22,14 @@ function Nav() {
           <ActiveLink href="/">Home</ActiveLink>
           <ActiveLink href="/about-us">About Us</ActiveLink>
           <ActiveLink href="/treatments">Treatments</ActiveLink>
-          <ActiveLink href="/new-patient-experience">New Patients</ActiveLink>
-          <ActiveLink href="/gallery">Before &amp; After Photos</ActiveLink>
+          {/* <ActiveLink href="/new-patient-experience">New Patients</ActiveLink> */}
+          {/* <ActiveLink href="/gallery">Before &amp; After Photos</ActiveLink> */}
           <ActiveLink href="/blog">Blog</ActiveLink>
-          <ActiveLink href="/testimonials">Testimonials</ActiveLink>
+          {/* <ActiveLink href="/testimonials">Testimonials</ActiveLink> */}
           <ActiveLink href="/contact-us">Contact Us</ActiveLink>
+          <SubscribeButton href="https://reviews.solutionreach.com/vs/mark_j_warner_dds/appt">
+            Request Appointment
+          </SubscribeButton>
         </Links>
       </Inner>
     </Container>
@@ -76,55 +80,64 @@ const Inner = styled.div`
     flex-direction: column;
     height: unset;
   }
-`;
-
-const Links = styled.div`
-  @media (max-width: 600px) {
-    width: 100%;
-    margin: 10px 0;
-    & > * {
-      display: block;
-    }
+  & > :first-child {
+    flex-grow: 1;
   }
 `;
 
 const NavLink = styled.a`
-  padding: 8px 12px;
+  padding: 8px 20px;
   color: inherit;
   text-decoration: none;
   white-space: nowrap;
   position: relative;
-  border-radius: 2px;
-  margin: 0 1px;
   font-weight: 500;
   display: inline-flex;
   height: 42px;
   justify-content: center;
   align-items: center;
-  &::before {
-    border-radius: 2px;
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 2px solid transparent;
-    transform: scale(0.95);
-    transition-duration: 0.2s;
-  }
-  &:hover {
-    &::before {
-      border-color: #c05237;
-      transform: scale(1);
-    }
-  }
+  border-radius: 7px;
+  color: #676767;
   &.active {
-    color: #c05237;
-    &::before {
-      border-color: #c05237;
-      transform: scale(1);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    background: white;
+    color: ${THEME_COLOR};
+  }
+`;
+
+const Links = styled.div`
+  border-radius: 7px;
+  background: #f8f8f8;
+  padding: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05) inset;
+  @media (max-width: 600px) {
+    width: 100%;
+    margin: 10px 0;
+    & > * {
+      display: flex;
+      justify-content: flex-start;
     }
+  }
+`;
+
+const SubscribeButton = styled.a`
+  background: ${THEME_COLOR};
+  color: white;
+  height: 42px;
+  padding: 0 20px;
+  margin-left: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 14px;
+  &:active {
+    background: ${darken(0.1, THEME_COLOR)};
+  }
+  @media (max-width: 600px) {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 4px;
   }
 `;

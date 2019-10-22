@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { SITE_WIDTH, SITE_PADDING } from "../vars";
+import { PAGE_WIDTH, SITE_PADDING } from "../vars";
 
 function Footer() {
   return (
@@ -35,7 +35,7 @@ const Container = styled.footer`
 
 const Inner = styled.div`
   margin: auto;
-  max-width: ${SITE_WIDTH};
+  max-width: ${PAGE_WIDTH};
   padding: ${SITE_PADDING};
   @media (max-width: 600px) {
     font-size: 0.8rem;
