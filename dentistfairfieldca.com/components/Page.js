@@ -27,6 +27,7 @@ const Container = styled.article`
       display: block;
       margin: 0.5em 0;
       color: ${THEME_COLOR};
+      font-style: italic;
     }
   }
   p {
