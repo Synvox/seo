@@ -3,6 +3,7 @@ import styled, { createGlobalStyle } from "styled-components";
 import React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -19,6 +20,10 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <>
+        <Head>
+          <title>Title</title>
+          <meta name="description" content="Description" />
+        </Head>
         <GlobalStyle />
         <Nav />
         <Content>

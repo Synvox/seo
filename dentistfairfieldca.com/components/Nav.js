@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { withRouter } from "next/router";
-
+import Link from "next/link";
 import { SITE_WIDTH, SITE_PADDING, THEME_COLOR } from "../vars";
 import { darken } from "polished";
 
@@ -19,14 +19,16 @@ function Nav() {
           </Logo>
         </a>
         <Links>
-          <ActiveLink href="/">Home</ActiveLink>
-          <ActiveLink href="/about-us">About Us</ActiveLink>
-          <ActiveLink href="/treatments">Treatments</ActiveLink>
-          {/* <ActiveLink href="/new-patient-experience">New Patients</ActiveLink> */}
-          {/* <ActiveLink href="/gallery">Before &amp; After Photos</ActiveLink> */}
-          <ActiveLink href="/blog">Blog</ActiveLink>
-          {/* <ActiveLink href="/testimonials">Testimonials</ActiveLink> */}
-          <ActiveLink href="/contact-us">Contact Us</ActiveLink>
+          <LinksHorizontal>
+            <ActiveLink href="/">Home</ActiveLink>
+            <ActiveLink href="/about-us">About Us</ActiveLink>
+            <ActiveLink href="/treatments">Treatments</ActiveLink>
+            {/* <ActiveLink href="/new-patient-experience">New Patients</ActiveLink> */}
+            {/* <ActiveLink href="/gallery">Before &amp; After Photos</ActiveLink> */}
+            <ActiveLink href="/blog">Blog</ActiveLink>
+            {/* <ActiveLink href="/testimonials">Testimonials</ActiveLink> */}
+            <ActiveLink href="/contact-us">Contact Us</ActiveLink>
+          </LinksHorizontal>
           <SubscribeButton href="https://reviews.solutionreach.com/vs/mark_j_warner_dds/appt">
             Request Appointment
           </SubscribeButton>
@@ -46,13 +48,15 @@ const ActiveLink = withRouter(function ActiveLink({
   ...otherProps
 }) {
   return (
-    <NavLink
-      href={href}
-      {...otherProps}
-      className={router.pathname === href ? "active" : undefined}
-    >
-      {children}
-    </NavLink>
+    <Link href={href}>
+      <NavLink
+        href={href}
+        {...otherProps}
+        className={router.pathname === href ? "active" : undefined}
+      >
+        {children}
+      </NavLink>
+    </Link>
   );
 });
 
@@ -62,7 +66,7 @@ const Container = styled.nav`
 `;
 
 const Logo = styled.h1`
-  @media (max-width: 600px) {
+  @media (max-width: 1023px) {
     margin: 10px 0;
   }
 `;
@@ -76,7 +80,7 @@ const Inner = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 120px;
-  @media (max-width: 600px) {
+  @media (max-width: 1023px) {
     flex-direction: column;
     height: unset;
   }
@@ -110,12 +114,25 @@ const Links = styled.div`
   background: #f8f8f8;
   padding: 4px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05) inset;
-  @media (max-width: 600px) {
+  @media (max-width: 1023px) {
     width: 100%;
     margin: 10px 0;
     & > * {
       display: flex;
       justify-content: flex-start;
+    }
+  }
+`;
+
+const LinksHorizontal = styled.div`
+  display: inline-flex;
+  flex-direction: row;
+  @media (max-width: 1023px) {
+    width: 100%;
+    padding-right: 4px;
+    & > * {
+      flex-grow: 1;
+      padding: 8px 0;
     }
   }
 `;
@@ -135,7 +152,7 @@ const SubscribeButton = styled.a`
   &:active {
     background: ${darken(0.1, THEME_COLOR)};
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1023px) {
     width: 100%;
     margin-left: 0px;
     margin-top: 4px;

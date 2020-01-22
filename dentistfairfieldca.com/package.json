@@ -11,6 +11,8 @@
     "polished": "^3.4.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "remark-emoji": "^2.0.2",
+    "remark-images": "^1.0.0",
     "styled-components": "^4.0.0"
   },
   "devDependencies": {

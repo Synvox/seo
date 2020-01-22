@@ -32,8 +32,7 @@ export default class Doc extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>Title</title>
-          <meta name="description" content="Description" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <body>
           <Main />
