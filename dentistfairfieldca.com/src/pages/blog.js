@@ -72,13 +72,16 @@ Blog.getInitialProps = async function() {
 
       const content = matter(value.default, { excerpt_separator: "\n\n" });
 
+      if (content.data.draft && content.data.draft[0].toLowerCase() === "f")
+        return;
+
       return {
         ...content,
         slug
       };
     });
     return data;
-  })(require.context("../posts", true, /\.md$/));
+  })(require.context("../posts", true, /\.md$/)).filter(Boolean);
 
   posts.sort((a, b) => {
     return Date.parse(b.data.date) - Date.parse(a.data.date);

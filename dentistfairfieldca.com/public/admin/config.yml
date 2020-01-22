@@ -3,6 +3,8 @@ backend:
   branch: master
 media_folder: public/images
 public_folder: images
+editor:
+  preview: false
 collections:
   - label: "Blog"
     name: "blog"
@@ -10,6 +12,7 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - {
           label: "Description",
           name: "description",
