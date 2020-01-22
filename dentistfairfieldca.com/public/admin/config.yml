@@ -6,11 +6,21 @@ public_folder: images
 collections:
   - label: "Blog"
     name: "blog"
-    folder: "src/posts"
+    folder: "dentistfairfieldca.com/src/posts"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
