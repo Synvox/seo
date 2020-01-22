@@ -4,13 +4,13 @@ import ReactMarkdown from "react-markdown";
 import Page from "../../components/Page";
 import ScheduleButton from "../../components/ScheduleButton";
 
-export default function BlogTemplate(props) {
+export default function BlogTemplate({ content, data }) {
   function reformatDate(fullDate) {
     const date = new Date(fullDate);
     return date.toDateString().slice(4);
   }
-  const markdownBody = props.content;
-  const frontmatter = props.data;
+  const markdownBody = content;
+  const frontmatter = data;
 
   return (
     <Page>
@@ -26,11 +26,14 @@ export default function BlogTemplate(props) {
 
 BlogTemplate.getInitialProps = async function(ctx) {
   const { slug } = ctx.query;
+  if (!slug) {
+    return { content: "", data: { title: "", date: "" } };
+  }
+
   const content = await import(`../../posts/${slug}.md`);
-  const config = await import(`../../data/config.json`);
   const data = matter(content.default);
+
   return {
-    siteTitle: config.title,
     ...data
   };
 };
