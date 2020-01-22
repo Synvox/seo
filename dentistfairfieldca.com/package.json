@@ -7,10 +7,14 @@
   },
   "dependencies": {
     "@zeit/next-mdx": "^1.2.0",
-    "next": "latest",
+    "gray-matter": "^4.0.2",
+    "moment": "^2.24.0",
+    "next": "^9.2.0",
     "polished": "^3.4.1",
+    "raw-loader": "^4.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-markdown": "^4.3.1",
     "remark-emoji": "^2.0.2",
     "remark-images": "^1.0.0",
     "styled-components": "^4.0.0"
