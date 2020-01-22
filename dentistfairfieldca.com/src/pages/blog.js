@@ -72,8 +72,7 @@ Blog.getInitialProps = async function() {
 
       const content = matter(value.default, { excerpt_separator: "\n\n" });
 
-      if (content.data.draft && content.data.draft[0].toLowerCase() === "f")
-        return;
+      if (content.data.draft) return;
 
       return {
         ...content,
