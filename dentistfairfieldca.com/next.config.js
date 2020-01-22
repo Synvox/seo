@@ -21,7 +21,6 @@ module.exports = {
     );
 
     blogSlugs.forEach(blog => {
-      console.log(`/${blog}`);
       routes[`/blog/${blog}`] = { page: "/blog/[slug]", query: { slug: blog } };
     });
 
