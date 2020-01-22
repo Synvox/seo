@@ -21,7 +21,7 @@ module.exports = {
     );
 
     blogSlugs.forEach(blog => {
-      routes[`/${blog}`] = { page: "/blog/[slug]", query: { slug: blog } };
+      routes[`/blog/${blog}`] = { page: "/blog/[slug]", query: { slug: blog } };
     });
 
     return routes;

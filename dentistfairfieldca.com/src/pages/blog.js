@@ -27,7 +27,7 @@ function Post({
   }
 }) {
   return (
-    <LinkContainer href={`/${slug}`}>
+    <LinkContainer href={`/blog/${slug}`}>
       <h2>
         {title} <small>{reformatDate(date)}</small>
       </h2>
