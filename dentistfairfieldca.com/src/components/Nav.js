@@ -4,37 +4,58 @@ import { withRouter } from "next/router";
 import Link from "next/link";
 import { SITE_WIDTH, SITE_PADDING, THEME_COLOR } from "../vars";
 import { darken } from "polished";
+import Icon, {
+  MapMarker,
+  Phone,
+  Instagram,
+  Twitter,
+  Pinterest,
+  Facebook,
+  LinkedIn
+} from "./Icon";
 
 function Nav() {
   return (
-    <Container>
-      <Inner>
-        <a href="/">
-          <Logo>
-            <img
-              src="/logo.jpg"
-              height="80"
-              alt="Mark J. Warner DDS Inc. General Dentistry"
-            />
-          </Logo>
-        </a>
-        <Links>
-          <LinksHorizontal>
-            <ActiveLink href="/">Home</ActiveLink>
-            <ActiveLink href="/about-us">About Us</ActiveLink>
-            <ActiveLink href="/treatments">Treatments</ActiveLink>
-            {/* <ActiveLink href="/new-patient-experience">New Patients</ActiveLink> */}
-            {/* <ActiveLink href="/gallery">Before &amp; After Photos</ActiveLink> */}
-            <ActiveLink href="/blog">Blog</ActiveLink>
-            {/* <ActiveLink href="/testimonials">Testimonials</ActiveLink> */}
-            <ActiveLink href="/contact-us">Contact Us</ActiveLink>
-          </LinksHorizontal>
-          <SubscribeButton href="https://reviews.solutionreach.com/vs/mark_j_warner_dds/appt">
-            Request Appointment
-          </SubscribeButton>
-        </Links>
-      </Inner>
-    </Container>
+    <>
+      <TopBanner>
+        <TopBannerInner>
+          <a href="https://goo.gl/maps/iBFZRr8xEWGY8gJR9">
+            <MapMarker /> <span>1291 Oliver Rd Fairfield, CA 94534</span>
+          </a>
+          <a href="tel:707-422-7633">
+            <Phone /> <span>707-422-7633</span>
+          </a>
+        </TopBannerInner>
+      </TopBanner>
+      <Container>
+        <Inner>
+          <a href="/">
+            <Logo>
+              <img
+                src="/logo.jpg"
+                height="80"
+                alt="Mark J. Warner DDS Inc. General Dentistry"
+              />
+            </Logo>
+          </a>
+          <Links>
+            <LinksHorizontal>
+              <ActiveLink href="/">Home</ActiveLink>
+              <ActiveLink href="/about-us">About Us</ActiveLink>
+              <ActiveLink href="/treatments">Treatments</ActiveLink>
+              {/* <ActiveLink href="/new-patient-experience">New Patients</ActiveLink> */}
+              {/* <ActiveLink href="/gallery">Before &amp; After Photos</ActiveLink> */}
+              <ActiveLink href="/blog">Blog</ActiveLink>
+              {/* <ActiveLink href="/testimonials">Testimonials</ActiveLink> */}
+              <ActiveLink href="/contact-us">Contact Us</ActiveLink>
+            </LinksHorizontal>
+            <SubscribeButton href="https://reviews.solutionreach.com/vs/mark_j_warner_dds/appt">
+              Request Appointment
+            </SubscribeButton>
+          </Links>
+        </Inner>
+      </Container>
+    </>
   );
 }
 
@@ -156,5 +177,44 @@ const SubscribeButton = styled.a`
     width: 100%;
     margin-left: 0px;
     margin-top: 4px;
+  }
+`;
+
+const TopBanner = styled.div`
+  background: ${THEME_COLOR};
+`;
+
+const TopBannerInner = styled.div`
+  margin: auto;
+  max-width: ${SITE_WIDTH};
+  padding: 0 ${SITE_PADDING};
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 40px;
+  color: white;
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  color: white;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  & > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 40px;
+    margin-left: 32px;
+    @media (max-width: 1023px) {
+      margin-left: 0px;
+    }
+    ${Icon} {
+      margin-right: 8px;
+    }
   }
 `;

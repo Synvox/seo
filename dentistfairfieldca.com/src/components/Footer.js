@@ -1,6 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 import { PAGE_WIDTH, SITE_PADDING } from "../vars";
+import Icon, {
+  MapMarker,
+  Phone,
+  Instagram,
+  Twitter,
+  Pinterest,
+  Facebook,
+  LinkedIn
+} from "./Icon";
+import Stack from "./Stack";
 
 function Footer() {
   return (
@@ -18,6 +28,25 @@ function Footer() {
           Closed Friday, Saturday, and Sunday
         </Address>
         <Center>
+          <Stack horizontal>
+            <a href="https://www.instagram.com/dentistfairfieldca/">
+              <Instagram />
+            </a>
+            <a href="https://twitter.com/markwarnerdds">
+              <Twitter />
+            </a>
+            <a href="https://pinterest.com/markwarnerdds">
+              <Pinterest />
+            </a>
+            <a href="https://www.facebook.com/markwarnerdentistry/">
+              <Facebook />
+            </a>
+            <a href="https://www.linkedin.com/company/mark-j-warner-dds-inc">
+              <LinkedIn />
+            </a>
+          </Stack>
+        </Center>
+        <Center>
           Copyright © 2019 · 1291 Oliver Rd · Fairfield CA · 94534 ·
           707-422-7633
         </Center>
@@ -31,6 +60,9 @@ export default Footer;
 const Container = styled.footer`
   border-top: 1px solid #eee;
   background: #fff;
+  a {
+    color: inherit;
+  }
 `;
 
 const Inner = styled.div`

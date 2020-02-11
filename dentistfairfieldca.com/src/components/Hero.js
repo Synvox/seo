@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { darken } from "polished";
 import { SITE_WIDTH, THEME_COLOR } from "../vars";
+import ScheduleButton from "./ScheduleButton";
+import Stack from "./Stack";
 
 function Hero() {
   return (
@@ -12,13 +14,13 @@ function Hero() {
     >
       <Inner>
         <Overlay>
-          <h1>
-            Looking for a Dentist in Fairfield, CA?
-            <small>We specialize in smiles for the whole family.</small>
-          </h1>
-          <SubscribeButton href="https://reviews.solutionreach.com/vs/mark_j_warner_dds/appt">
-            Request Appointment
-          </SubscribeButton>
+          <Stack>
+            <h1>
+              Looking for a Dentist in Fairfield, CA?
+              <small>We specialize in smiles for the whole family.</small>
+            </h1>
+            <ScheduleButton />
+          </Stack>
         </Overlay>
       </Inner>
     </Container>
@@ -78,23 +80,6 @@ const Overlay = styled.div`
         font-size: 14px;
       }
     }
-  }
-`;
-
-const SubscribeButton = styled.a`
-  margin-top: 2em;
-  background: ${THEME_COLOR};
-  color: white;
-  width: 100%;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  border-radius: 7px;
-  font-size: 14px;
-  &:active {
-    background: ${darken(0.1, THEME_COLOR)};
   }
 `;
 

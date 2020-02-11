@@ -5,18 +5,16 @@ import { darken } from "polished";
 
 function ScheduleButton() {
   return (
-    <div>
-      <SubscribeButtonContainer href="https://reviews.solutionreach.com/vs/mark_j_warner_dds/appt">
-        Request Appointment
-      </SubscribeButtonContainer>
-    </div>
+    <SubscribeButtonContainer href="https://reviews.solutionreach.com/vs/mark_j_warner_dds/appt">
+      Request Appointment
+    </SubscribeButtonContainer>
   );
 }
 
 const SubscribeButtonContainer = styled.a`
   background: ${THEME_COLOR};
   color: white;
-  height: 42px;
+  height: 50px;
   padding: 0 20px;
   display: inline-flex;
   width: auto;
@@ -28,6 +26,9 @@ const SubscribeButtonContainer = styled.a`
   border-radius: 7px;
   font-size: 14px;
   clear: both;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
   &:active {
     background: ${darken(0.1, THEME_COLOR)};
   }
