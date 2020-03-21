@@ -16,14 +16,14 @@ import Icon, {
 
 function Nav() {
   return (
-    <>
+    <Wrapper>
       <TopBanner>
         <TopBannerInner>
           <a href="https://goo.gl/maps/iBFZRr8xEWGY8gJR9">
             <MapMarker /> <span>1291 Oliver Rd Fairfield, CA 94534</span>
           </a>
           <a href="tel:707-422-7633">
-            <Phone /> <span>707-422-7633</span>
+            <Phone /> <span>Call Now (707) 422-7633</span>
           </a>
         </TopBannerInner>
       </TopBanner>
@@ -55,7 +55,7 @@ function Nav() {
           </Links>
         </Inner>
       </Container>
-    </>
+    </Wrapper>
   );
 }
 
@@ -81,6 +81,14 @@ const ActiveLink = withRouter(function ActiveLink({
   );
 });
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 1023px) {
+    flex-direction: column-reverse;
+  }
+`;
+
 const Container = styled.nav`
   border-bottom: 1px solid #eee;
   background: #fff;
@@ -88,7 +96,7 @@ const Container = styled.nav`
 
 const Logo = styled.h1`
   @media (max-width: 1023px) {
-    margin: 10px 0;
+    margin: 40px 0;
   }
 `;
 

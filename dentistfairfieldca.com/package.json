@@ -1,8 +1,8 @@
 {
-  "name": "with-styled-components",
+  "name": "dentistfairfieldcacom",
   "version": "1.0.0",
   "scripts": {
-    "start": "next",
+    "start": "next -p 3050",
     "build": "next build && next export"
   },
   "dependencies": {

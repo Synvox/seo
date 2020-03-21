@@ -9,7 +9,7 @@ function Hero() {
   return (
     <Container
       style={{
-        backgroundImage: `url(https://images.unsplash.com/photo-1495004984586-0dc339ad4b2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3400&q=80)`
+        backgroundImage: `url(/beach.jpg)`
       }}
     >
       <Inner>
