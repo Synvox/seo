@@ -39,7 +39,7 @@ function Nav() {
     "longitude": "-122.0676612"
   },
   "sameAs":"https://www.facebook.com/markwarnerdentistry/",
-  "areaServed": ["Fairfield CA"],
+  "areaServed": ["Fairfield CA", "Vacaville CA"],
   "openingHours": "Mo, Tu, We, Th, Fr 9:00-17:00",
   "hasMap": "https://www.google.com/maps/place/Mark+J.+Warner+DDS+Inc.+General+Dentistry/@38.2547503,-122.0680119,18.94z/data=!4m5!3m4!1s0x0:0xf44f83b2cc00a50f!8m2!3d38.2548902!4d-122.067621",
   "contactPoint": {
