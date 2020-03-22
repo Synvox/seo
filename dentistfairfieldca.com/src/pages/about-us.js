@@ -1,10 +1,19 @@
 import React from "react";
 import Page, { Aside } from "../components/Page";
 import ScheduleButton from "../components/ScheduleButton";
+import Head from "next/head";
 
 function AboutUs() {
   return (
     <Page>
+      <Head>
+        <title>Welcome to Mark J Warner, DDS</title>
+        <meta
+          name="description"
+          content="General, Cosmetic, Implant, and Family Dentistry in Fairfield, CA We are a Fairfield dental office specializing in helping you with
+          all of your dental needs."
+        />
+      </Head>
       <Aside>
         <iframe
           src="https://www.youtube.com/embed/YwGUMn3wXOM"

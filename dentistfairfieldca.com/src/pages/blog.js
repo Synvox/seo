@@ -3,10 +3,19 @@ import matter from "gray-matter";
 import styled from "styled-components";
 import Page from "../components/Page";
 import ReactMarkdown from "react-markdown";
+import Head from "next/head";
 
 export default function Blog({ posts }) {
   return (
     <Page>
+      <Head>
+        <title>Blog</title>
+        <meta
+          name="description"
+          content="General, Cosmetic, Implant, and Family Dentistry in Fairfield, CA We are a Fairfield dental office specializing in helping you with
+          all of your dental needs."
+        />
+      </Head>
       {posts.map(post => (
         <Post post={post} key={post.slug} />
       ))}

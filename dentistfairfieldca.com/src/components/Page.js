@@ -36,6 +36,11 @@ const Container = styled.article`
     margin-bottom: 2em;
     max-width: 60ch;
   }
+  ul,
+  li {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
   img,
   iframe {
     width: 100%;

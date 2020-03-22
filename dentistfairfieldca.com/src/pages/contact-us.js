@@ -1,10 +1,15 @@
 import React from "react";
 import Page, { Aside } from "../components/Page";
 import ScheduleButton from "../components/ScheduleButton";
+import Head from "next/head";
 
 function ContactUs() {
   return (
     <Page>
+      <Head>
+        <title>Contact Us</title>
+        <meta name="description" content="You can reach us at 707-422-7633" />
+      </Head>
       <Aside>
         <img src="/office.jpg" height="80" alt="Mark Warner Office" />
       </Aside>

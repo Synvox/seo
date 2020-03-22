@@ -47,8 +47,8 @@ function Footer() {
           </Stack>
         </Center>
         <Center>
-          Copyright © 2019 · 1291 Oliver Rd · Fairfield CA · 94534 ·
-          707-422-7633
+          Copyright © {new Date().getFullYear()} · 1291 Oliver Rd · Fairfield CA
+          · 94534 · 707-422-7633
         </Center>
       </Inner>
     </Container>

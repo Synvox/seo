@@ -36,7 +36,7 @@ function Index() {
           </small>
         </h2>
         <h3>FREE Dental Consultation</h3>
-        [image:(null)/(null)]
+
         <p>
           You have a lot of choices in Fairfield when it comes to finding a
           dentist near you. We also understand that you may have been putting
@@ -53,7 +53,7 @@ function Index() {
           no harm, no foul!
         </p>
         <h3> Dedicated Staff</h3>
-        [image:(null)/(null)]
+
         <p>
           We cannot wait to help you improve your oral health. Our aim is to
           make you feel right at home. Our staff of dental professional are not
@@ -62,7 +62,7 @@ function Index() {
           happy and comfortable each time you come in.
         </p>
         <h3>Comprehensive Cosmetic and Restorative Dental Care</h3>
-        [image:(null)/(null)]
+
         <p>
           Besides offering white fillings and crowns for natural-looking
           restorations, we also provide cosmetic dentistry services like teeth

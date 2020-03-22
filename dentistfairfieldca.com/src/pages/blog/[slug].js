@@ -3,6 +3,7 @@ import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import Page from "../../components/Page";
 import ScheduleButton from "../../components/ScheduleButton";
+import Head from "next/head";
 
 export default function BlogTemplate({ content, data }) {
   function reformatDate(fullDate) {
@@ -14,6 +15,9 @@ export default function BlogTemplate({ content, data }) {
 
   return (
     <Page>
+      <Head>
+        <title>{frontmatter.title}</title>
+      </Head>
       <h2>
         {frontmatter.title}
         <small>{reformatDate(frontmatter.date)}</small>
