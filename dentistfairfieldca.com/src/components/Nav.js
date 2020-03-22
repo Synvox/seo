@@ -68,7 +68,8 @@ function Nav() {
       "name": "Virginia Commonwealth University, Medical College of Virginia – School of Dentistry",
       "url": "https://dentistry.vcu.edu/"
     }
-  }
+  },
+  "priceRange":"$"
 }
         `
           }}
