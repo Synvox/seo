@@ -58,6 +58,16 @@ function Nav() {
       "ratingValue" : "5 stars"
     },
     "reviewBody" : "Overall this is the best dentist office I have ever been to. I have been going here for about 9 years now, and I can honestly say that the Dr. And staff have always made me feel welcome, comfortable, and have always made  going to the dentist something I actually look forward to!! Me and my mother have both gotten cosmetic AND  general Dentistry done here and the results have been amazing every single time. From Invisalign, to bridges, to cleanings, everything is done efficiently and skillfully. Love love love this Dentist office and wouldn't think twice about recommending it to EVERYONE AND ANYONE! 😃"
+  },
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "doctorate degree",
+    "about": "Dental Surgery",
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "Virginia Commonwealth University, Medical College of Virginia – School of Dentistry",
+      "url": "https://dentistry.vcu.edu/"
+    }
   }
 }
         `
