@@ -76,8 +76,8 @@ function Index() {
             height="480"
             width="540"
             frameborder="0"
-            marginwidth="0"
-            marginheight="0"
+            marginWidth="0"
+            marginHeight="0"
             scrolling="no"
           />
         </Aside>
