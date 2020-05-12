@@ -5,7 +5,7 @@ date: "2019-09-22"
 
 This comedy clip about a terrible dentist is great for a good laugh. Have no fear! Your visit to our Dental Office will certainly be nothing like this!
 
-<iframe title="YouTube video player" src="http://www.youtube.com/embed/bOtMizMQ6oM?rel=0" height="349" width="425" allowfullscreen frameborder="0"></iframe>
+<iframe title="YouTube video player" src="https://www.youtube.com/embed/bOtMizMQ6oM?rel=0" height="349" width="425" allowfullscreen frameborder="0"></iframe>
 
 Don't you love that clip? Little Shop of Horrors is quite the classic and Steve Martin is hilarious!
 
