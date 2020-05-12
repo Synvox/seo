@@ -41,8 +41,8 @@ const Container = styled.article`
     font-size: 18px;
     line-height: 1.5em;
   }
-  img,
-  iframe {
+  img:not(.raw),
+  iframe:not(.raw) {
     width: 100%;
     max-width: 100%;
     margin-bottom: 40px;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { darken } from "polished";
-import { SITE_WIDTH, THEME_COLOR } from "../vars";
+import { SITE_WIDTH } from "../vars";
 import ScheduleButton from "./ScheduleButton";
 import Stack from "./Stack";
 
@@ -9,17 +9,26 @@ function Hero() {
   return (
     <Container
       style={{
-        backgroundImage: `url(/beach.jpg)`
+        backgroundImage: `url(/beach.jpg)`,
       }}
     >
       <Inner>
+        <Overlay>
+          <Stack>
+            {/* <h1>
+              Looking for a Dentist in Fairfield, CA?
+              <small>We specialize in smiles for the whole family.</small>
+            </h1>
+            <ScheduleButton label="Contact Dr. Warner" /> */}
+          </Stack>
+        </Overlay>
         <Overlay>
           <Stack>
             <h1>
               Looking for a Dentist in Fairfield, CA?
               <small>We specialize in smiles for the whole family.</small>
             </h1>
-            <ScheduleButton />
+            <ScheduleButton label="Contact Dr. Warner" />
           </Stack>
         </Overlay>
       </Inner>
@@ -28,7 +37,7 @@ function Hero() {
 }
 
 const Container = styled.div`
-  height: 50vh;
+  height: 40vh;
   position: relative;
   background-position: center 25%;
   background-size: cover;
@@ -45,15 +54,19 @@ const Inner = styled.div`
   padding: 40px;
   height: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 const Overlay = styled.div`
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 3px;
-  width: 380px;
+  width: 100%;
+  max-width: 400px;
   text-align: left;
   padding: 20px;
   display: flex;
@@ -63,6 +76,9 @@ const Overlay = styled.div`
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   @media (max-width: 600px) {
     width: 100%;
+  }
+  &:first-child {
+    max-width: 600px;
   }
   h1 {
     font-size: 35px;

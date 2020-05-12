@@ -3,11 +3,12 @@ import styled from "styled-components";
 import { THEME_COLOR } from "../vars";
 import { darken } from "polished";
 
-function ScheduleButton() {
+function ScheduleButton({
+  label = "Request Appointment",
+  href = "https://reviews.solutionreach.com/vs/mark_j_warner_dds/appt",
+}) {
   return (
-    <SubscribeButtonContainer href="https://reviews.solutionreach.com/vs/mark_j_warner_dds/appt">
-      Request Appointment
-    </SubscribeButtonContainer>
+    <SubscribeButtonContainer href={href}>{label}</SubscribeButtonContainer>
   );
 }
 

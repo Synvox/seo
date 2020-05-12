@@ -24,8 +24,7 @@ function Nav() {
   "image": "https://dentistfairfieldca.com/office.jpg",
   "founder": "Mark J. Warner",
   "telephone": "+17074227633",
-  "description": "General, Cosmetic, Implant, and Family Dentistry in Fairfield, CA We are a Fairfield dental office specializing in helping you with
-  all of your dental needs.",
+  "description": "General, Cosmetic, Implant, and Family Dentistry in Fairfield, CA We are a Fairfield dental office specializing in helping you with all of your dental needs.",
   "address" : {
     "@type" : "PostalAddress",
     "streetAddress" : "1291 Oliver Rd",
@@ -71,7 +70,7 @@ function Nav() {
   },
   "priceRange":"$"
 }
-        `
+        `,
           }}
         />
       </Head>
@@ -82,7 +81,7 @@ function Nav() {
               <MapMarker /> <span>1291 Oliver Rd Fairfield, CA 94534</span>
             </a>
             <a href="tel:707-422-7633">
-              <Phone /> <span>Call Now (707) 422-7633</span>
+              <Phone /> <span>Call (707) 422-7633</span>
             </a>
           </TopBannerInner>
         </TopBanner>
@@ -144,6 +143,7 @@ const ActiveLink = withRouter(function ActiveLink({
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
 `;
 
 const Container = styled.nav`

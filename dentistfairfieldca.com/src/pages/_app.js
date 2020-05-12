@@ -21,8 +21,12 @@ export default class MyApp extends App {
     return (
       <>
         <Head>
-          <title>Title</title>
-          <meta name="description" content="Description" />
+          <title>Welcome to Mark J Warner, DDS</title>
+          <meta
+            name="description"
+            content="General, Cosmetic, Implant, and Family Dentistry in Fairfield, CA We are a Fairfield dental office specializing in helping you with
+          all of your dental needs."
+          />
         </Head>
         <GlobalStyle />
         <Nav />

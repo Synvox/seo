@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Page, { Aside } from "../components/Page";
 import Head from "next/head";
+import styled from "styled-components";
 
 function Index() {
   return (
@@ -16,15 +17,6 @@ function Index() {
       </Head>
       <Hero />
       <Page>
-        <Aside>
-          <img
-            src="/stock-office.jpeg"
-            style={{
-              objectFit: "cover",
-              height: "200px"
-            }}
-          />
-        </Aside>
         <h2>
           Welcome to Mark J Warner, DDS
           <small>
@@ -35,7 +27,10 @@ function Index() {
             all of your dental needs.
           </small>
         </h2>
-        <h3>FREE Dental Consultation</h3>
+        <h3>
+          <ResponsiveImage className="raw" src="/drwarner.png" />
+          FREE Dental Consultation
+        </h3>
 
         <p>
           You have a lot of choices in Fairfield when it comes to finding a
@@ -90,5 +85,17 @@ function Index() {
     </>
   );
 }
+
+const ResponsiveImage = styled.img`
+  float: right;
+  width: 300px;
+  margin: 20px;
+  border-radius: 7px;
+  @media (max-width: 600px) {
+    width: 100%;
+    float: unset;
+    margin: 20px 0;
+  }
+`;
 
 export default Index;
