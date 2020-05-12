@@ -4,6 +4,8 @@ import { darken } from "polished";
 import { SITE_WIDTH } from "../vars";
 import ScheduleButton from "./ScheduleButton";
 import Stack from "./Stack";
+import Page from "./Page";
+import { Info } from "./Icon";
 
 function Hero() {
   return (
@@ -14,13 +16,28 @@ function Hero() {
     >
       <Inner>
         <Overlay>
-          <Stack>
-            {/* <h1>
-              Looking for a Dentist in Fairfield, CA?
-              <small>We specialize in smiles for the whole family.</small>
-            </h1>
-            <ScheduleButton label="Contact Dr. Warner" /> */}
-          </Stack>
+          <Page style={{ margin: 0 }}>
+            <h2>
+              <Info
+                style={{
+                  marginRight: "8px",
+                  width: "32px",
+                  height: "32px",
+                  transform: "translateY(5px)",
+                }}
+              />{" "}
+              Important COVID-19 Update
+            </h2>
+            <p>
+              Based on California Gov. Gavin Newsom’ mandate on March 19, 2020,
+              all dental offices in this state are only permitted to see
+              patients who are experiencing a true dental emergency until
+              further notice.
+            </p>
+            <p>
+              <a href="/blog/covid">More Information</a>
+            </p>
+          </Page>
         </Overlay>
         <Overlay>
           <Stack>
@@ -43,6 +60,7 @@ const Container = styled.div`
   background-size: cover;
   background-color: #433a31;
   text-align: center;
+  padding: 40px;
   @media (max-width: 600px) {
     height: auto;
   }
@@ -51,20 +69,21 @@ const Container = styled.div`
 const Inner = styled.div`
   margin: auto;
   max-width: ${SITE_WIDTH};
-  padding: 40px;
+
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(50px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
   @media (max-width: 600px) {
     flex-direction: column;
   }
 `;
 
 const Overlay = styled.div`
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
-  border-radius: 3px;
   width: 100%;
   max-width: 400px;
   text-align: left;
@@ -73,12 +92,14 @@ const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   @media (max-width: 600px) {
     width: 100%;
   }
   &:first-child {
     max-width: 600px;
+    @media (max-width: 600px) {
+      margin-bottom: 20px;
+    }
   }
   h1 {
     font-size: 35px;

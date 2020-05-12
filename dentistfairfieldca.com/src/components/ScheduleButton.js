@@ -14,7 +14,7 @@ function ScheduleButton({
 
 const SubscribeButtonContainer = styled.a`
   background: ${THEME_COLOR};
-  color: white;
+  color: white !important;
   height: 50px;
   padding: 0 20px;
   display: inline-flex;

@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { SITE_WIDTH, SITE_PADDING, THEME_COLOR, PAGE_WIDTH } from "../vars";
 
-function Page({ children }) {
+function Page({ children, style }) {
   return (
-    <Container>
+    <Container style={style}>
       <Inner>{children}</Inner>
     </Container>
   );
@@ -15,6 +15,7 @@ const Container = styled.article`
   margin: 40px 0;
   h2 {
     font-size: 30px;
+    vertical-align: center;
   }
   h3 {
     font-size: 20px;
