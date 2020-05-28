@@ -42,7 +42,7 @@ function Index() {
           health. We proudly provide the highest quality of dental treatments to
           families in Fairfield, Vacaville, Travis Air Force Base, Vallejo,
           Napa, and surrounding areas. Call us right away to Schedule Your Free
-          Dental Consult 707-422-7633. (Consult will be free and last
+          Dental Consultation 707-422-7633. (Consultation will be free and last
           approximately 15 minutes.) We hope this will help you feel more
           comfortable with using us as your dental office. If you choose not to,
           no harm, no foul!
