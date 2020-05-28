@@ -81,7 +81,7 @@ function Nav() {
               <MapMarker /> <span>1291 Oliver Rd Fairfield, CA 94534</span>
             </a>
             <a href="tel:707-422-7633">
-              <Phone /> <span>Call (707) 422-7633</span>
+              <Phone /> <span>Call or Text (707) 422-7633</span>
             </a>
           </TopBannerInner>
         </TopBanner>

@@ -39,7 +39,7 @@ function AboutUs() {
       </p>
       <p>
         Dr. Warner is joined by an amazing staff, here to take care of all of
-        your dental needs. He has 3 hygienists, two dental assistants, and two
+        your dental needs. He has two hygienists, two dental assistants, and two
         helping in the front office. They all do a great job at making you feel
         comfortable and at ease.
       </p>

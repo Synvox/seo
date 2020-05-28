@@ -54,7 +54,7 @@ function Hero() {
 }
 
 const Container = styled.div`
-  height: 40vh;
+  height: 440px;
   position: relative;
   background-position: center 25%;
   background-size: cover;
@@ -63,6 +63,7 @@ const Container = styled.div`
   padding: 40px;
   @media (max-width: 600px) {
     height: auto;
+    padding: 10px;
   }
 `;
 

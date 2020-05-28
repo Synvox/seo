@@ -69,14 +69,13 @@ function AboutUs() {
         <li>Teeth Whitening</li>
         <li>Veneers</li>
         <li>Bonding</li>
-        <li>White Restorations</li>
+        <li>White Resin Restorations</li>
       </ul>
 
       <h3>Bridges</h3>
       <ul>
-        <li>traditional bridge</li>
-        <li>cantilever bridge</li>
-        <li>Maryland bonded or resin-bonded bridge.</li>
+        <li>Traditional bridge</li>
+        <li>Cantilever bridge</li>
       </ul>
 
       <h3>Emergency services</h3>
