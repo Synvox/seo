@@ -2,7 +2,7 @@
 title: Trendy Foods/ Supplements That Could Be Harming Your Teeth
 draft: false
 description: ""
-date: 2020-05-30T01:36:23.646Z
+date: 2020-02-04T02:36:23.646Z
 thumbnail: images/screen-shot-2020-02-03-at-9.03.35-am.png
 ---
 There have been lots of foods and drinks in our news feeds for the past couple years. Anywhere from super foods, to super drinks that claim they do wonders for your health. While some may have good benefits for the body, others actually could be doing bad things to your mouth and teeth.
