@@ -1,9 +1,10 @@
 ---
 title: Why Do My Gums Hurt While Brushing My Teeth?
-draft: true
+draft: false
 date: 2020-05-26T02:04:36.881Z
 thumbnail: images/mouth-29657_1280-761x1024.png
 ---
+
 There are a few reasons why your gums can feel tender or be in pain while you are bushing your teeth.
 
 The first is that you may not brush and floss your teeth often or well enough. If you are out of habit of these two things in your daily routine, your gums could become swollen and inflamed, causing them to hurt when touched, or even bleed. Fortunately, this comes with an easy fix. Just brush twice a day, floss once a day, and keep going. The longer and more regularly you brush your teeth and floss, the less inflamed your gums will become.

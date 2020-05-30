@@ -1,9 +1,10 @@
 ---
 title: Baby Teeth-  A Parent’s Brief Guide
-draft: true
+draft: false
 date: 2020-04-14T01:56:15.407Z
 thumbnail: images/baby.jpg
 ---
+
 Whether you are expecting your first child or they're your third, it is always nice to know information on your baby. Here are a few facts that are good to know:
 
 1. When your baby is teething , massaging gums, giving them something cold, or even some acetaminophen on occasion can soothe that teething pain. Many times babies don’t have too much discomfort, but sometimes you can really tell your child is in pain. One sign is that they are drooling more than usual. Massaging can offer relief to swollen gums, teething rings that are frozen can also give that relief. If the pain is bad enough, consider consulting with a pediatrician about give the correct dose of acetaminophen to your baby.\

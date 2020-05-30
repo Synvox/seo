@@ -1,10 +1,11 @@
 ---
 title: Firefighter Almost Dies From Poking a Popcorn That is Stuck in His Mouth
-draft: true
+draft: false
 date: 2020-02-10T02:42:20.961Z
 thumbnail: images/popcorn.jpg
 ---
- In October of last year, a firefighter named Adam Martin want to the hospital for open-heart surgery to save his life. He had gotten a really bad blood infection (infective endocarditis) that could have killed him.\
+
+In October of last year, a firefighter named Adam Martin want to the hospital for open-heart surgery to save his life. He had gotten a really bad blood infection (infective endocarditis) that could have killed him.\
 This infection can lead to bacteria and germs from other parts of the body getting into the bloodstream and hurting the heart.\
 This could all be traced back September when he and his wife were watching a movie together and eating popcorn.\
 He had gotten some stuck in his teeth and used random objects laying around to try and dislodge it, to no avail. One thing he didn’t think of was to see a dentist about it .\

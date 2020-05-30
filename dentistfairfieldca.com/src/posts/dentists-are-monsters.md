@@ -1,9 +1,10 @@
 ---
 title: '"Dentists Are Monsters"'
-draft: true
+draft: false
 date: 2020-02-17T22:44:00.000Z
 thumbnail: images/dentists-are-monsters.jpeg
 ---
+
 Dental school student Dr. David Markiewicz was concerned with how many kids and adults out there were afraid by some degree of the dentist. He wanted to help reduce anxiety especially among kids.
 
 Dr. Markiewicz came up with a really good idea; a children’s book. The story is about a new tooth named Tony. He hears all these scary stories about the dentist.

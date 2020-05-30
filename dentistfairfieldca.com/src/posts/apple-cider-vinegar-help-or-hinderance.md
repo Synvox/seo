@@ -1,9 +1,10 @@
 ---
 title: Apple Cider Vinegar- Help or Hinderance?
-draft: true
+draft: false
 date: 2020-05-12T02:02:16.067Z
 thumbnail: images/apple.jpg
 ---
+
 A huge thing trending right now is Apple Cider Vinegar (ACV). That thing that smells and tastes awful? Yup! Many people drink it and claim it can help them lose weight, kill of harmful bacteria in the gut, detoxify etc. It also can whiten teeth and much more! Can it hurt your teeth though? Let's dig a little deeper.
 
 Apple Cider Vinegar is used to clean and disinfect things like counter tops. Its vinegar properties allow it to kill off pathogens, which is bacteria that causes disease and illness. That's a great thing, right?
