@@ -26,16 +26,16 @@ function Hero() {
                   transform: "translateY(5px)",
                 }}
               />{" "}
-              Important COVID-19 Update
+              We are happy to be open again!
             </h2>
             <p>
-              Based on California Gov. Gavin Newsom’ mandate on March 19, 2020,
-              all dental offices in this state are only permitted to see
-              patients who are experiencing a true dental emergency until
-              further notice.
+              Please read our COVID-19 update for up-to-date information and the
+              guidelines we are following to keep our patients (and staff) safe.
+              Please wear a mask to your appointment. If you feel sick, call and
+              reschedule.
             </p>
             <p>
-              <a href="/blog/covid">More Information</a>
+              <a href="/blog/we-are-open">More Information</a>
             </p>
           </Page>
         </Overlay>
