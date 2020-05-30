@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { darken } from "polished";
 import { SITE_WIDTH } from "../vars";
 import ScheduleButton from "./ScheduleButton";
@@ -7,38 +7,45 @@ import Stack from "./Stack";
 import Page from "./Page";
 import { Info } from "./Icon";
 
+const slideSrcs = [
+  "/slider/a.jpeg",
+  "/slider/b.jpeg",
+  "/slider/c.jpeg",
+  "/slider/d.jpeg",
+  "/slider/e.jpeg",
+];
+
 function Hero() {
   return (
     <Container
-      style={{
-        backgroundImage: `url(/beach.jpg)`,
-      }}
+    // style={{
+    //   backgroundImage: `url(/beach.jpg)`,
+    // }}
     >
       <Inner>
-        <Overlay>
-          <Page style={{ margin: 0 }}>
-            <h2>
-              <Info
-                style={{
-                  marginRight: "8px",
-                  width: "32px",
-                  height: "32px",
-                  transform: "translateY(5px)",
-                }}
-              />{" "}
-              We are happy to be open again!
-            </h2>
-            <p>
-              Please read our COVID-19 update for up-to-date information and the
-              guidelines we are following to keep our patients (and staff) safe.
-              Please wear a mask to your appointment. If you feel sick, call and
-              reschedule.
-            </p>
-            <p>
-              <a href="/blog/we-are-open">More Information</a>
-            </p>
-          </Page>
-        </Overlay>
+        <Slider>
+          {slideSrcs.map((src, index) => (
+            <Slide
+              key={src}
+              alt="Person smiling"
+              style={{
+                backgroundImage: `url("${src}")`,
+                animationDelay: `${index * 6.4}s`,
+              }}
+            />
+          ))}
+          <Caption>
+            <Page style={{ margin: 0, padding: 0 }}>
+              <h2>We are happy to be open again!</h2>
+              <p>
+                See our COVID-19 page for more information about the protocols
+                we are following to keep our patients (and staff) safe. Please
+                wear a mask to your appointment. If you feel sick, call and
+                reschedule. <a href="/blog/we-are-open">More Information</a>
+              </p>
+            </Page>
+          </Caption>
+        </Slider>
         <Overlay>
           <Stack>
             <h1>
@@ -54,13 +61,14 @@ function Hero() {
 }
 
 const Container = styled.div`
-  height: 440px;
+  height: 640px;
   position: relative;
   background-position: center 25%;
   background-size: cover;
-  background-color: #433a31;
   text-align: center;
   padding: 40px;
+  border-bottom: 1px solid #eee;
+  background: #f8f8f8;
   @media (max-width: 600px) {
     height: auto;
     padding: 10px;
@@ -75,10 +83,11 @@ const Inner = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(50px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 7px;
+  /* background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(50px); */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
+  /* border-radius: 7px; */
+  overflow: hidden;
   @media (max-width: 600px) {
     flex-direction: column;
   }
@@ -88,7 +97,7 @@ const Overlay = styled.div`
   width: 100%;
   max-width: 400px;
   text-align: left;
-  padding: 20px;
+  padding: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,6 +126,66 @@ const Overlay = styled.div`
       @media (max-width: 600px) {
         font-size: 14px;
       }
+    }
+  }
+`;
+
+const Slider = styled.div`
+  height: 100%;
+  flex: 1;
+  position: relative;
+  background: black;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+`;
+
+const fadeIn = keyframes`
+  0% {
+    opacity:0;
+  }
+  2% {
+    opacity:1;
+  }
+  28% {
+    opacity:1;
+  }
+  30% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+`;
+
+const Slide = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: 50% 50%;
+  background-size: cover;
+  animation-fill-mode: both;
+  animation: ${fadeIn} 32s infinite;
+  opacity: 0;
+`;
+
+const Caption = styled.div`
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-shadow: 0px 1px 1px black, 0px 1px 8px rgba(0, 0, 0, 0.2);
+  a {
+    color: inherit;
+    &:visited {
+      color: white;
     }
   }
 `;
