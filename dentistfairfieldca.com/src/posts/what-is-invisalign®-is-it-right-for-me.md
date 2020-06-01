@@ -1,7 +1,7 @@
 ---
 title: What is Invisalign®? Is it right for me?
 draft: false
-date: 2020-06-01T20:16:15.456Z
+date: 2020-06-08T20:16:15.456Z
 thumbnail: images/invisalign.png
 ---
 You may have a love- hate (mostly hate) relationship with the traditional braces scene. You probably got them during your teen years and couldn’t stand them. Getting food stuck in them, the embarrassment when you smile, and just feeling clunky. What we really can’t stand is having to wear them as adults! There has to be a better way! I’m here to tell you there is another great solution than the expensive and uncomfortable normal braces. 
