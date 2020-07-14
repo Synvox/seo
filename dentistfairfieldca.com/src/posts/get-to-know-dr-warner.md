@@ -1,6 +1,6 @@
 ---
 title: Get to Know Dr. Warner
-draft: true
+draft: false
 date: 2020-07-20T22:57:29.477Z
 thumbnail: images/fullsizerender.jpeg
 ---
