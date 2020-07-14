@@ -1,6 +1,6 @@
 ---
 title: 4 Simple Ways Drinking Water Benefits Our Oral Health
-draft: true
+draft: false
 date: 2020-07-06T23:55:49.284Z
 thumbnail: images/noppadon-manadee-g016_njoouk-unsplash.jpg
 ---
