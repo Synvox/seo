@@ -1,7 +1,7 @@
 ---
 title: COVID-19 Update 1
-draft: true
-date: 2020-05-11
+draft: false
+date: 2020-05-11T00:00:00.000Z
 ---
 
 COVID-19 Update
