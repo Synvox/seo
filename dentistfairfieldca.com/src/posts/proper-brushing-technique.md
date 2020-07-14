@@ -1,6 +1,6 @@
 ---
 title: "Proper Brushing Technique  "
-draft: true
+draft: false
 date: 2020-07-14T00:01:38.238Z
 thumbnail: images/taisiia-shestopal-ri72hm2vnou-unsplash.jpg
 ---
