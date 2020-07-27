@@ -2,7 +2,7 @@
 title: Brushing Facts You May Find Interesting
 draft: false
 date: 2020-03-31T01:53:03.394Z
-thumbnail: images/toothbrushes.jpg
+thumbnail: /images/toothbrushes.jpg
 ---
 
 We all like to learn new things, and one thing most people don’t know about it, is dentistry. Today I wanted to talk about facts surrounding brushing your teeth, and brushing in general!\

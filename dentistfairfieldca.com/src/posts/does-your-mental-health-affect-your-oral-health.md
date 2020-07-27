@@ -2,7 +2,7 @@
 title: Does Your Mental Health Affect Your Oral Health?
 draft: false
 date: 2020-04-28T01:58:49.631Z
-thumbnail: images/pain.jpg
+thumbnail: /images/pain.jpg
 ---
 
 The two may not seem like they have any similarities or connections, but there is more brewing under the surface than you might think.\

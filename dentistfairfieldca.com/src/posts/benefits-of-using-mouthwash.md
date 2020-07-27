@@ -2,7 +2,7 @@
 title: Benefits of Using Mouthwash
 draft: false
 date: 2020-05-05T01:59:47.195Z
-thumbnail: images/mouthwash.png
+thumbnail: /images/mouthwash.png
 ---
 
 Who wants to add one more thing to their everyday oral routine? No one really wants to, but this blog post hopefully will sell you on using mouthwash regularly.

@@ -2,7 +2,7 @@
 title: How Sugar Affects Your Teeth
 draft: false
 date: 2020-05-19T02:03:29.138Z
-thumbnail: images/sugar.png
+thumbnail: /images/sugar.png
 ---
 
 Pretty much all of the human race loves sugar. Pies, candy, chocolate, cookies, the list goes on and on. We know sugar isn’t great for our health because it can lead to diabetes, obesity, heart problems, etc. However, sugar can do more than just affect your physical health, it can mess with your oral health too. Drat! While treats are super yummy and should be enjoyed, we recommend eating it, with everything else, in moderation.

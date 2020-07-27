@@ -2,7 +2,7 @@
 title: Eating Healthier Can Prevent Cavities
 draft: false
 date: 2020-02-25T02:46:57.343Z
-thumbnail: images/tooth-healthy-diet-.jpeg
+thumbnail: /images/tooth-healthy-diet-.jpeg
 ---
 
 A study called _The Healthy Eating Index and Coronal Dental Caries in U.S. Adults: National Health and Nutrition Examination Survey 2011-2014_, was done to look at connections between untreated cavities, decayed, missing and filled teeth, and the Healthy Eating Index in almost 8,000 adults (20 years of age and older).

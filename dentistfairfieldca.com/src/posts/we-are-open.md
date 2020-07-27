@@ -2,7 +2,7 @@
 title: We are OPEN!
 draft: false
 date: 2020-05-30T02:07:04.915Z
-thumbnail: images/watermelon.jpg
+thumbnail: /images/watermelon.jpg
 ---
 
 We are pleased to announce that our doors are once again open. Back in business, finally! We are continuing with our normal hours. After these long few months, we all could use some help getting back on track. One way to do that is to book an appointment. If you’ve been putting off a tooth ache, chipped tooth, gums problems, or any other issue, please call us.

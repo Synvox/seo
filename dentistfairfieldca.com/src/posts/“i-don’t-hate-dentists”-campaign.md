@@ -2,7 +2,7 @@
 title: “I Don’t Hate Dentists” Campaign
 draft: false
 date: 2020-03-17T01:49:39.310Z
-thumbnail: images/i-don-t-hate-dentists.png
+thumbnail: /images/i-don-t-hate-dentists.png
 ---
 
 We hear it all the time, “Dentists are scary”, “Dentists are the worst, “ or, “ I hate dentists”. While it really unfortunate that many people have had less-than- great run- ins at dentists’ office, imagine hearing that about your occupation day in and day out? It makes it really awkward for the doctors and staff when you say you hate them…\

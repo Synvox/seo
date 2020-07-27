@@ -2,7 +2,7 @@
 title: Why Do My Gums Hurt While Brushing My Teeth?
 draft: false
 date: 2020-05-26T02:04:36.881Z
-thumbnail: images/mouth-29657_1280-761x1024.png
+thumbnail: /images/mouth-29657_1280-761x1024.png
 ---
 
 There are a few reasons why your gums can feel tender or be in pain while you are bushing your teeth.

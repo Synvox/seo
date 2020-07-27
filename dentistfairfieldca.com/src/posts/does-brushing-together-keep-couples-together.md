@@ -2,7 +2,7 @@
 title: Does Brushing Together Keep Couples Together?
 draft: false
 date: 2020-04-07T01:54:55.980Z
-thumbnail: images/heart-string.jpg
+thumbnail: /images/heart-string.jpg
 ---
 
 Does the average couple in American couple brush their teeth at the same time everyday? According the the Oral Health Foundation’s Twitter account, 50% of couples never brush at the same time. 22% occasionally do, 17% most of the time, and 11% all the time.

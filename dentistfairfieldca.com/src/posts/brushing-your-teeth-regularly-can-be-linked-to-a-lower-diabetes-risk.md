@@ -2,7 +2,7 @@
 title: Brushing Your Teeth Regularly Can Be Linked to A Lower Diabetes Risk
 draft: false
 date: 2020-03-23T18:51:00.000Z
-thumbnail: images/spoon-54e4d7454c_180-1.jpg
+thumbnail: /images/spoon-54e4d7454c_180-1.jpg
 ---
 
 Using the Korean government health records and self-given reports, researchers used data from 188,013 men and women around 53 years old that didn't have diabetes. Of this sample size, there was more than 17% who had periodontal disease. Watching them for 10 years, 31,545 developed diabetes, which is about 16-17% of the sample size.

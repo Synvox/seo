@@ -2,7 +2,7 @@
 title: February- National Children’s Dental Health Month
 draft: false
 date: 2020-03-02T21:45:00.000Z
-thumbnail: images/toothbrush.jpg
+thumbnail: /images/toothbrush.jpg
 ---
 
 This February’s National Children’s Dental Health Month was dedicated to the 75th anniversary of community water fluoridation. These years of research have shown that fluoride in water is safe and its works. The ADA President Chad P. Gahani said, “It also prevents tooth decay by at least 25% in both children and adults.”

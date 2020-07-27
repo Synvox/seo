@@ -2,7 +2,7 @@
 title: Is It Ever Too Late To Start Flossing?
 draft: false
 date: 2020-04-21T01:57:49.133Z
-thumbnail: images/flossing-family.jpeg
+thumbnail: /images/flossing-family.jpeg
 ---
 
 While there are a few of us out there that floss the recommended amount of times a day, or even more, most of us floss irregularly at best. In a [survey](https://www.ada.org/en/publications/ada-news/2017-archive/october/new-survey-highlights-unusual-flossing-habits) given by the American Dental Association in 2017, it was shown that only 16% of Americans floss the recommended one time a day. 20% said they floss only when they need to, like when something is stuck in between teeth, and 8% claimed they never floss. Some reasons stated for this, was because it takes too much time, it can hurt, and some even said because it was gross. When asked if they ever fib about how much they floss to the dentist, 44% said they did!\

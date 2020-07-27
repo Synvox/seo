@@ -3,8 +3,9 @@ title: Trendy Foods/ Supplements That Could Be Harming Your Teeth
 draft: false
 description: ""
 date: 2020-02-04T02:36:23.646Z
-thumbnail: images/screen-shot-2020-02-03-at-9.03.35-am.png
+thumbnail: /images/screen-shot-2020-02-03-at-9.03.35-am.png
 ---
+
 There have been lots of foods and drinks in our news feeds for the past couple years. Anywhere from super foods, to super drinks that claim they do wonders for your health. While some may have good benefits for the body, others actually could be doing bad things to your mouth and teeth.
 
 Kombucha is a fermented tea that contains tons of antioxidants and probiotics that help with gut health and have great inflammation reducing qualities. With these benefits aside, it also is a very acidic. With water being a neutral pH of 7, kombucha has to be kept under a pH of 3.5 to stop harmful bacteria from growing in it. Anything below 7 is considered acidic. Acidic foods and drinks can cause great enamel erosion (the white outside part of your teeth), which is not good!

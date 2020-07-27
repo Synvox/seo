@@ -2,7 +2,7 @@
 title: Baby Teeth-  A Parent’s Brief Guide
 draft: false
 date: 2020-04-14T01:56:15.407Z
-thumbnail: images/baby.jpg
+thumbnail: /images/baby.jpg
 ---
 
 Whether you are expecting your first child or they're your third, it is always nice to know information on your baby. Here are a few facts that are good to know:
