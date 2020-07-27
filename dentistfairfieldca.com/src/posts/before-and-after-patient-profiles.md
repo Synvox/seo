@@ -1,6 +1,6 @@
 ---
 title: Before and After Patient Profiles
-draft: true
+draft: false
 date: 2020-07-27T20:03:35.555Z
 thumbnail: ""
 ---
