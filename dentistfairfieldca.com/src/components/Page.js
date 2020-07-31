@@ -77,7 +77,7 @@ export const Aside = styled.aside`
   & > img,
   & > iframe {
     width: 100%;
-    min-height: 40vh;
+    min-height: 20vh;
     margin-bottom: 40px;
     border-radius: 7px;
     @media (max-width: 600px) {

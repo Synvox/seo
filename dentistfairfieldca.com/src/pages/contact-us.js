@@ -21,7 +21,7 @@ function ContactUs() {
       <p>
         The dental office of Mark J. Warner DDS Inc is here to help. Please call
         us at 707-422-7633 with any concerns or questions…or better yet to
-        schedule an appointment! We are in the office Monday – Thursdays 9-5pm.
+        schedule an appointment! We are available Monday – Thursdays 9-5pm.
         Don’t be shy, leave a message if we can’t get to the phone so we can
         call you back.
       </p>
