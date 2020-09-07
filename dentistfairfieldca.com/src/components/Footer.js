@@ -8,7 +8,7 @@ import Icon, {
   Twitter,
   Pinterest,
   Facebook,
-  LinkedIn
+  LinkedIn,
 } from "./Icon";
 import Stack from "./Stack";
 
@@ -48,7 +48,7 @@ function Footer() {
         </Center>
         <Center>
           Copyright © {new Date().getFullYear()} · 1291 Oliver Rd · Fairfield CA
-          · 94534 · 707-422-7633
+          · 94534 · 707-422-7633 · <a href="/careers">Careers</a>
         </Center>
       </Inner>
     </Container>
