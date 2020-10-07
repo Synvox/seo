@@ -2,7 +2,7 @@
 title: 3 Ways to Make Your Smile More Natural in Pictures
 draft: false
 date: 2020-10-12T21:08:17.651Z
-thumbnail: /images/photodune-b04fe5qe-beautiful-woman-smiling-xxl.jpg
+thumbnail: /images/smile4-150x150.jpg
 ---
 
 
