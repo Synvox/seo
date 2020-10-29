@@ -24,11 +24,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
   }
   body {
-    color: white;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
     font-size: 14px;
     text-rendering: optimizeLegibility;
-    background: ${theme.colors.darkBackground};
+    background: white;
   
   }
 `;

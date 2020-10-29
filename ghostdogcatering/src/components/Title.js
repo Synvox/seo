@@ -35,6 +35,9 @@ const Container = styled.div`
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   padding: 20px;
   padding-bottom: 100px;
+  color: white;
+  text-align: center;
+  font-family: "Teko", sans-serif;
   @media (min-width: 600px) {
     display: flex;
     align-items: center;

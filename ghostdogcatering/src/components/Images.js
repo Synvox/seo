@@ -59,7 +59,10 @@ export default function Images() {
 const Container = styled.div`
   display: flex;
   box-shadow: 0px 0px 0px 2px #0004;
-  background: #0004;
+  background: #fff;
+  @media (max-width: 600px) {
+    margin-top: 50px;
+  }
 `;
 
 const Inner = styled.div`

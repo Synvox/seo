@@ -18,11 +18,13 @@ const Container = styled.div`
   height: 100%;
   width: 100%;
   position: relative;
-  top: 30vmin;
+  background: ${theme.colors.darkBackground};
+  @media (max-width: 600px) {
+    padding: 15vmin 0;
+  }
 `;
 
 const BumpTop = styled.div`
-  background: ${theme.colors.darkBackground};
   height: 20%;
 `;
 
@@ -42,10 +44,7 @@ const FadeBottom = styled.div`
   left: 0;
   right: 0;
   height: 20%;
-  background-image: linear-gradient(
-    transparent,
-    ${theme.colors.darkBackground}
-  );
+  background-image: linear-gradient(transparent, white);
 `;
 
 const FadeTop = styled.div`

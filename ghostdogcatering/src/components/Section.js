@@ -24,6 +24,7 @@ const Inner = styled.div`
   margin: auto;
   position: relative;
   z-index: 1;
+  text-align: left;
 `;
 const Background = styled.div`
   width: 100%;

@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export default function Flex({
   direction = "row",
@@ -7,7 +7,7 @@ export default function Flex({
   children,
 }) {
   return (
-    <Container style={{ flexDirection: direction, justifyContent }}>
+    <Container direction={direction} justifyContent={justifyContent}>
       {children}
     </Container>
   );
@@ -16,4 +16,18 @@ export default function Flex({
 const Container = styled.div`
   display: flex;
   flex: 1;
+  justify-content: ${(p) => p.justifyContent};
+  ${(p) =>
+    p.direction === "row" &&
+    css`
+      flex-direction: row;
+      @media (max-width: 600px) {
+        flex-direction: column;
+      }
+    `}
+  ${(p) =>
+    p.direction === "column" &&
+    css`
+      flex-direction: column;
+    `}
 `;

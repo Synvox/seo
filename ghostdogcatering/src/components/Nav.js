@@ -18,12 +18,12 @@ export default function Nav({ invert = false }) {
     <>
       <Container large={large} invert={invert}>
         <Section fullWidth>
-          <Flex>
-            <Links style={{ justifyContent: "flex-start" }}>
-              <NavLink href="#">Features</NavLink>
-              <NavLink href="#">Pricing</NavLink>
-              <NavLink href="#">Integrations</NavLink>
-              <NavLink href="https://blog.skipio.com">Blog</NavLink>
+          <Flex justifyContent="space-around">
+            <Title>Ghost Dog Catering</Title>
+            <Links>
+              <NavLink href="#">Home</NavLink>
+              <NavLink href="#">Our Food</NavLink>
+              <NavLink href="#">Contact</NavLink>
             </Links>
           </Flex>
         </Section>
@@ -60,29 +60,29 @@ const Stub = styled.div`
 
 const Container = styled.div`
   display: flex;
-  color: ${theme.colors.textMain};
+  color: white;
   font-weight: 500;
   padding: 0 20px;
   transition: 0.2s;
   position: relative;
   z-index: 100000;
+  height: 120px;
+  background: ${theme.colors.darkBackground};
+  font-family: "Teko", sans-serif;
   ${(p) =>
     p.invert &&
     p.large &&
     css`
-      color: ${theme.colors.textInverted};
+      /* color: ${theme.colors.textInverted}; */
     `}
   ${(p) =>
     p.large
-      ? css`
-          height: 120px;
-        `
+      ? css``
       : css`
           position: fixed;
           top: 0;
           left: 0;
           right: 0;
-          height: 80px;
           background: ${theme.colors.darkBackground};
           /* background: #fffffff8; */
           /* backdrop-filter: blur(15px); */
@@ -93,10 +93,14 @@ const Container = styled.div`
 
 const Links = styled.div`
   display: flex;
-  flex: 1;
   justify-content: flex-end;
   flex-direction: row;
   align-items: center;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  @media (max-width: 600px) {
+    justify-content: center;
+    margin-top: 20px;
+  }
   & > :not(:last-child) {
     display: inline-block;
     margin-right: 40px;
@@ -107,8 +111,13 @@ const NavLink = styled.a`
   color: inherit;
   text-decoration: none;
   white-space: nowrap;
-  font-size: 16px;
   &.active {
     font-weight: bold;
+  }
+`;
+
+const Title = styled.h1`
+  @media (max-width: 600px) {
+    text-align: center;
   }
 `;
