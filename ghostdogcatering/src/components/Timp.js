@@ -19,6 +19,7 @@ const Container = styled.div`
   width: 100%;
   position: relative;
   background: ${theme.colors.darkBackground};
+  box-sizing: content-box;
   @media (max-width: 600px) {
     padding: 15vmin 0;
   }

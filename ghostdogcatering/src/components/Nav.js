@@ -22,7 +22,8 @@ export default function Nav({ invert = false }) {
             <Title>Ghost Dog Catering</Title>
             <Links>
               <NavLink href="#">Home</NavLink>
-              <NavLink href="#">Our Food</NavLink>
+              <NavLink href="#custom-food">Custom Food</NavLink>
+              <NavLink href="#menus">Menus</NavLink>
               <NavLink href="#">Contact</NavLink>
             </Links>
           </Flex>

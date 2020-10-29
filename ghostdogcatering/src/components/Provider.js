@@ -20,14 +20,17 @@ const GlobalStyle = createGlobalStyle`
   h1,h2,h3,h4,h5,h6,p {
     margin:0;
   }
- *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
   body {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
     font-size: 14px;
     text-rendering: optimizeLegibility;
     background: white;
-  
+
   }
 `;

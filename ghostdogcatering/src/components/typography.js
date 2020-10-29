@@ -19,9 +19,19 @@ export const Heading = styled.h2`
   }
 `;
 
+export const Heading2 = styled(Heading)`
+  font-size: clamp(2rem, 2vw, 2rem);
+  &::after {
+    display: none;
+  }
+`;
+
 export const P = styled.p`
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1rem, 1.5vw, 1.5rem);
+  li:not(:last-child) {
+    margin-bottom: 0.5em;
+  }
 `;
 
 export const Padding = styled.div`
