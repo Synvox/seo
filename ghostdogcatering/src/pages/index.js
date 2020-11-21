@@ -51,7 +51,6 @@ export default function Home() {
             <Drawer header={<div>Tapas Style Meal</div>}>
               <P>
                 <Heading2>Featured Tapas</Heading2>
-
                 <ul>
                   <li>
                     Local Tomato Bruschetta-Toasted French Bread, Extra Virgin
@@ -78,9 +77,7 @@ export default function Home() {
                     Bread, Baked Corn Chips
                   </li>
                 </ul>
-
                 <Heading2>Dessert</Heading2>
-
                 <ul>
                   <li>
                     Strawberry Trifle- Macerated Berries, Vanilla Cream, Pound
@@ -119,7 +116,6 @@ export default function Home() {
             <Drawer header={<div>Italian Themed</div>}>
               <P>
                 <Heading2>Starters</Heading2>
-
                 <ul>
                   <li>
                     Arancini- Arborio Rice, Cured Ham, Onions, Garlic, Parmesan,
@@ -131,7 +127,6 @@ export default function Home() {
                   </li>
                 </ul>
                 <Heading2>Main Event</Heading2>
-
                 <ul>
                   <li>
                     Chopped Salad- Grilled Chicken, Bacon, Red Cabbage, Ditalini
@@ -155,9 +150,7 @@ export default function Home() {
                     Pepper, Garlic
                   </li>
                 </ul>
-
                 <Heading2>Dessert</Heading2>
-
                 <ul>
                   <li>
                     Cannoli Cheesecake – Graham Cracker Crust, Ricotta Cheese,
@@ -169,7 +162,6 @@ export default function Home() {
             <Drawer header={<div>Spanish Inspired</div>}>
               <P>
                 <Heading2>Starters</Heading2>
-
                 <ul>
                   <li>
                     Patatas Bravas- Crispy Idaho Potatoes, Spicy Tomato Sauce,
@@ -181,7 +173,6 @@ export default function Home() {
                   </li>
                 </ul>
                 <Heading2>Main Event</Heading2>
-
                 <ul>
                   <li>
                     Greek Salad- Sweet Jem Lettuce, Roasted Peppers, Olives,
@@ -201,9 +192,7 @@ export default function Home() {
                     Garlic Pepper
                   </li>
                 </ul>
-
                 <Heading2>Dessert</Heading2>
-
                 <ul>
                   <li>
                     “Birthday Cake” Tiramisu – Vanilla Mascarpone, Coffee
@@ -217,7 +206,9 @@ export default function Home() {
       </Section>
       <Section>
         <div style={{ textAlign: "center" }}>
-          <ContactButton onClick={() => window.open("mailto:")}>
+          <ContactButton
+            onClick={() => window.open("mailto:ghostdogcatering@gmail.com")}
+          >
             Contact Us
           </ContactButton>
         </div>

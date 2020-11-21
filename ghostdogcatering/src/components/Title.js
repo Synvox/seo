@@ -32,7 +32,9 @@ export default function Title() {
             </Slide>
           ))}
         </BigText>
-        <ContactButton onClick={() => window.open("mailto:")}>
+        <ContactButton
+          onClick={() => window.open("mailto:ghostdogcatering@gmail.com")}
+        >
           Contact Us
         </ContactButton>
       </div>

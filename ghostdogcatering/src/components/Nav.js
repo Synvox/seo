@@ -24,7 +24,13 @@ export default function Nav({ invert = false }) {
               <NavLink href="#">Home</NavLink>
               <NavLink href="#custom-food">Custom Food</NavLink>
               <NavLink href="#menus">Menus</NavLink>
-              <NavLink href="#" onClick={() => window.open("mailto:")}>
+              <NavLink href="https://www.instagram.com/ghostdogcatering">
+                Instagram
+              </NavLink>
+              <NavLink
+                href="#"
+                onClick={() => window.open("mailto:ghostdogcatering@gmail.com")}
+              >
                 Contact
               </NavLink>
             </Links>
@@ -106,7 +112,7 @@ const Links = styled.div`
   }
   & > :not(:last-child) {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 24px;
   }
 `;
 
