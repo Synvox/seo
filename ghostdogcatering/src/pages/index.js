@@ -88,9 +88,6 @@ export default function Home() {
                   </li>
                 </ul>
               </P>
-              <P>
-                <strong>$90 per person</strong>
-              </P>
             </Drawer>
             <Drawer header={<div>Brunch Meal</div>}>
               <P>
@@ -117,9 +114,6 @@ export default function Home() {
                   <li>Chocolate Chip Banana Bread- Cinnamon Butter</li>
                   <li>Smoked Sausage- Hardwood Smoked</li>
                 </ul>
-              </P>
-              <P>
-                <strong>$40 per person</strong>
               </P>
             </Drawer>
             <Drawer header={<div>Italian Themed</div>}>
@@ -171,9 +165,6 @@ export default function Home() {
                   </li>
                 </ul>
               </P>
-              <P>
-                <strong>$85 per person</strong>
-              </P>
             </Drawer>
             <Drawer header={<div>Spanish Inspired</div>}>
               <P>
@@ -220,13 +211,33 @@ export default function Home() {
                   </li>
                 </ul>
               </P>
-              <P>
-                <strong>$80 per person</strong>
-              </P>
             </Drawer>
           </Stack>
         </Padding>
       </Section>
+      <Section>
+        <div style={{ textAlign: "center" }}>
+          <ContactButton onClick={() => window.open("mailto:")}>
+            Contact Us
+          </ContactButton>
+        </div>
+      </Section>
     </>
   );
 }
+
+const ContactButton = styled.button`
+  border: 0;
+  background: black;
+  color: white;
+  margin: 2em auto;
+  padding: 0.25em 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-size: clamp(2rem, 2vw, 3rem);
+  font-family: "Teko", sans-serif;
+  font-weight: 500;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+`;

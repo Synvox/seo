@@ -2,14 +2,21 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 
 export default function Title() {
-  const options = ["Home Office", "Wedding", "Office", "Home", "Crew"];
-  const totalTime = options.length * 4;
+  const options = [
+    "Family Occasion",
+    "Home Office",
+    "Wedding",
+    "Office",
+    "Home",
+    "Crew",
+  ];
+  const totalTime = options.length * 5;
 
   return (
     <Container>
-      <div>
+      <LogoContainer>
         <Logo src="/logo.png" />
-      </div>
+      </LogoContainer>
       <div>
         <SmallText>We'll cook for your</SmallText>
         <BigText>
@@ -25,6 +32,9 @@ export default function Title() {
             </Slide>
           ))}
         </BigText>
+        <ContactButton onClick={() => window.open("mailto:")}>
+          Contact Us
+        </ContactButton>
       </div>
     </Container>
   );
@@ -38,12 +48,22 @@ const Container = styled.div`
   color: white;
   text-align: center;
   font-family: "Teko", sans-serif;
+  position: relative;
   @media (min-width: 600px) {
     display: flex;
     align-items: center;
     & > div {
       flex: 1;
     }
+  }
+`;
+
+const LogoContainer = styled.div`
+  @media (max-width: 600px) {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
   }
 `;
 
@@ -93,4 +113,20 @@ const Slide = styled.div`
   animation: ${anim} infinite;
   animation-fill-mode: both;
   position: absolute;
+`;
+
+const ContactButton = styled.button`
+  border: 0;
+  background: white;
+  margin: 0;
+  padding: 0.25em 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+  font-size: 20px;
+  font-size: clamp(2rem, 2vw, 3rem);
+  font-family: "Teko", sans-serif;
+  font-weight: 500;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 `;

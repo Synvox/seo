@@ -24,7 +24,9 @@ export default function Nav({ invert = false }) {
               <NavLink href="#">Home</NavLink>
               <NavLink href="#custom-food">Custom Food</NavLink>
               <NavLink href="#menus">Menus</NavLink>
-              <NavLink href="#">Contact</NavLink>
+              <NavLink href="#" onClick={() => window.open("mailto:")}>
+                Contact
+              </NavLink>
             </Links>
           </Flex>
         </Section>

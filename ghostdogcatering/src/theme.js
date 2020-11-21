@@ -1,7 +1,7 @@
 import { darken } from "polished";
 export const theme = {
-  siteWidth: "960px",
-  maxSiteWidth: "960px",
+  siteWidth: "1200px",
+  maxSiteWidth: "1200px",
   colors: {
     primary: "#0070f3",
     blackBackground: "#383a42",
