@@ -1,6 +1,6 @@
 ---
 title: You May Have Weak Enamel If...
-draft: true
+draft: false
 date: 2021-01-18T07:00:00.000Z
 thumbnail: /images/dentist-fairfield-ca-tooth-enamel.jpeg
 ---
