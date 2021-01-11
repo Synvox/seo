@@ -1,6 +1,6 @@
 ---
 title: Your Teeth Are Trying to Tell You Something
-draft: true
+draft: false
 date: 2018-10-04
 ---
 ![](/images/the-dental-diet-book.jpg)
