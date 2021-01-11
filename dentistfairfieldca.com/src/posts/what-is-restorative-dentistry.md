@@ -1,7 +1,8 @@
 ---
-title: "What is Restorative Dentistry?"
-date: "2013-07-30"
-coverImage: "teeth-cleaning-and-restoration-fairfield-ca.jpg"
+title: What is Restorative Dentistry?
+date: 2020-07-30T06:00:00.000Z
+coverImage: teeth-cleaning-and-restoration-fairfield-ca.jpg
+draft: false
 ---
 
 ## **Restorative Dentistry for Healthy Teeth**
