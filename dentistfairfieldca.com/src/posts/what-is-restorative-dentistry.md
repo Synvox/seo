@@ -3,6 +3,7 @@ title: What is Restorative Dentistry?
 date: 2020-07-30T06:00:00.000Z
 coverImage: teeth-cleaning-and-restoration-fairfield-ca.jpg
 draft: false
+thumbnail: /images/WhatisRestorativeDentistry.jpg
 ---
 ## **Restorative Dentistry for Healthy Teeth**
 
@@ -11,8 +12,6 @@ Teeth are one of the important parts of our body that must be maintained in orde
 Additionally, research has also shown that poor oral health can be a contributing factor or linked to diabetes, heart disease, stroke and other diseases.  Proper dental care is a must to ensure having healthy teeth and to maintain stable healthy oral environment.
 
 For you to gain the most out of your teeth, it is recommended that you consult with a restorative dentist if you have any issues with the cosmetic and functional aspects of your teeth which impact your health or quality of life. These dentists have specialized skills and expertise when it comes to patients who have prior problems with regards to their teeth and gums.
-
-![Restorative Dentist Fairfield CA](/images/WhatisRestorativeDentistry.jpg "Restorative Dentist Fairfield CA")
 
 ## **What is involved?**
 
