@@ -1,6 +1,8 @@
 ---
-title: "Tooth Decay and How to Prevent it"
-date: "2012-07-17"
+title: Tooth Decay and How to Prevent it
+draft: false
+date: 2020-07-17T06:00:00.000Z
+thumbnail: /images/dentist-fairfield-gum-disease-e1529513285940.jpeg
 ---
 
 Preventative treatment is very important in the modern oral health world. Tooth decay is a common problem that is easily stopped by basic knowledge of good oral upkeep. Most people have visited the dentist to have a cavity filled, but understanding some basic things about the teeth can prevent needing to deal with tooth decay.
