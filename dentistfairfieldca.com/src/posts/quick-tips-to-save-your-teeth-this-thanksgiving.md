@@ -2,6 +2,7 @@
 title: Quick Tips To Save Your Teeth This Thanksgiving
 draft: false
 date: 2020-11-23T22:29:52.261Z
+thumbnail: /images/sugary-foods-dentist-fairfield-ca-1024x683.jpeg
 ---
 We all love Thanksgiving, it’s a time for reflection and a time to celebrate.. with food! But some things we eat and habits we have can harm our teeth and overall oral health. So let’s talk about some ways to be better this time around. 
 
