@@ -1,11 +1,10 @@
 ---
-title: "Tooth Healthy Lunch"
-date: "2014-02-15"
+title: Healthy Lunches for Your Chompers
+draft: false
+date: 2019-02-15T07:00:00.000Z
+thumbnail: /images/Great-Deals-on-Cosmetic-Dentistry-image.jpg
 ---
-
-Lots of foods have key proteins, vitamins, and calcium that promote healthy teeth. According to the Centers for Disease Control (CD) tooth decay affects more than one-fourth of U.S. children ages 2-5 and half of those ages 12-15. School lunches are the battleground for oral health and there are things that you can pack for your kids that will please their taste buds and their dentist.
-
-[![Tooth-Healthy-Lunch-image](/images/Tooth-Healthy-Lunch-image-300x240.jpg)](/images/Tooth-Healthy-Lunch-image.jpg)
+Lots of foods have key proteins, vitamins, and calcium that promote healthy teeth. According to the Centers for Disease Control (CD) tooth decay affects more than one-fourth of U.S. children ages 2-5 and half of those ages 12-15. School lunches are the battleground for oral health and there are things that you can pack for your kids that will please their taste buds and their dentist
 
 Carrots, broccoli, sweet potato, and pumpkin are foods that are rich in Vitamin A that actually help form tooth enamel. Flossing their teeth after lunch to get any raw carrot pieces out is a built-in reminder for kids to floss! Peanut butter is a favorite among kids and on whole wheat, high fiber bread and jam that isn’t too sugary, it creates a balanced main dish for school lunches. For a more savory sandwich you can put beef, chicken, or turkey with an egg to combine protein and phosphorous in one fell swoop! With just these few ingredients the possibilities for delicious, healthy lunches are nearly endless.
 
