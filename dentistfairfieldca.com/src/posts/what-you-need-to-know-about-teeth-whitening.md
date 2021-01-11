@@ -3,13 +3,11 @@ title: What You Need to Know About Teeth Whitening
 date: 2020-08-13T06:00:00.000Z
 coverImage: TeethWhitening-FairfieldCA.jpg
 draft: false
+thumbnail: /images/TeethWhitening-FairfieldCA.jpg
 ---
-
 Teeth whitening has seen a huge growth in popularity over the past decade, especially in certain circles.  You don’t even have to be a celebrity to have perfect teeth.  However, the problem is that not all of us have pearly whites, and no matter how much we brush and clean, we can’t seem to get them as white and nice as we’d want them to be.
 
 Of course, it’s hard having really white teeth when so many things can color and discolor teeth (those little shades of white that are appearing on your teeth are discolorations). So, what causes that? A number of factors like smoking, drinking colas, food, aging and let’s not forget, coffee.
-
-![Dental Whitening](/images/TeethWhitening-FairfieldCA.jpg "Dental Whitening Mark J Warner DDS")
 
 The good news is that today, you have a myriad of solutions when it comes to teeth whitening. However, not all solutions work for everybody. While the teeth that are discolored yellow, orange or brown respond quite well to cosmetic tooth whitening, the grey stains that are caused by tetracycline or heredity are quite hard to whiten. At the same time, people who have worn enamel or have sensitive teeth or periodontal disease can’t rely on teeth whitening. Why?
 
