@@ -2,13 +2,11 @@
 title: White Restorations-What are They?
 draft: false
 date: 2020-08-30T06:00:00.000Z
+thumbnail: /images/whiteteeth.jpg
 ---
-
 Today, we’re lucky because dentists have an array of products they use for the white restorations that are required in order to get back a smile that you’re proud to show. The array can include anything from composite resin fillings to porcelain fillings and crowns, and doesn’t stop until your white restoration is complete and blends perfectly with your other teeth, making it undetectable to the human eye.
 
-Many dentists employ tooth colored fillings to blend the filling with the natural color of the teeth, so that your smile will look like it never suffered any damage – be it from cavities or chips and cracks. There are two main types of filings, direct and indirect.
-
-[![White Teeth](/images/whiteteeth.jpg)](/images/whiteteeth.jpg)
+Many dentists employ tooth colored fillings to blend the filling with the natural color of the teeth, so that your smile will look like it never suffered any damage – be it from cavities or chips and cracks. There are two main types of filings, direct and indirect
 
 Direct fillings are fillings formed from resin material that the dentist applies and then dyes to match your tooth perfectly. It’s applied directly when it’s soft, and then molded after it gets hard to match the contours of your tooth.  Finally, it is polished, so that it looks like there’s no difference between the filling and natural tooth.
 
