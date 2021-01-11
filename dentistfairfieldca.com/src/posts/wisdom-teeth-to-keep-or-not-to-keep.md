@@ -1,6 +1,6 @@
 ---
 title: "Wisdom Teeth:  To Keep or Not to Keep?"
-draft: true
+draft: false
 date: 2021-01-01T07:00:00.000Z
 thumbnail: /images/dentist-fairfield-ca-wisdom-teeth-xray-1024x540.jpg
 ---
