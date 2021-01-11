@@ -1,7 +1,8 @@
 ---
-title: "What You Need to Know About Teeth Whitening"
-date: "2013-08-13"
-coverImage: "TeethWhitening-FairfieldCA.jpg"
+title: What You Need to Know About Teeth Whitening
+date: 2020-08-13T06:00:00.000Z
+coverImage: TeethWhitening-FairfieldCA.jpg
+draft: false
 ---
 
 Teeth whitening has seen a huge growth in popularity over the past decade, especially in certain circles.  You don’t even have to be a celebrity to have perfect teeth.  However, the problem is that not all of us have pearly whites, and no matter how much we brush and clean, we can’t seem to get them as white and nice as we’d want them to be.
