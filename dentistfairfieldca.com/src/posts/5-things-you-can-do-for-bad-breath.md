@@ -1,11 +1,12 @@
 ---
-title: "5 Things You Can Do for Bad Breath"
-date: "2013-11-22"
+title: 5 Things You Can Do for Bad Breath
+draft: false
+date: 2020-11-22T07:00:00.000Z
+thumbnail: /images/5-things-to-do1.jpg
 ---
-
 Bad breath, is a clear sign that you need to take better care of your dental hygiene. Everybody knows that it’s never pleasant to be around someone who has a bad breath. Unfortunately, this is a serious problem that’s usually not treated properly.
 
-[![5-things-to-do1](/images/5-things-to-do1.jpg)](/images/5-things-to-do1.jpg)
+[](/images/5-things-to-do1.jpg)
 
 If you don’t take care of it, it could lead to serious problems like halitosis and gingivitis.
 
