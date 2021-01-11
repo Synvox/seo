@@ -1,10 +1,9 @@
 ---
-title: "What to Do About a Cracked Tooth"
-date: "2018-10-25"
+title: What to Do About a Cracked Tooth
+draft: false
+date: 2020-10-25T06:00:00.000Z
+thumbnail: /images/cracked-tooth-dentist-fairfield-1024x1024.png
 ---
-
-![](/images/cracked-tooth-dentist-fairfield-1024x1024.png)
-
 Whether a cracked tooth happens as the result of an accident, misuse of the teeth, or even teeth grinding, it should always be evaluated by a dentist. The reason is that even though a cracked tooth isn't causing any symptoms, it could eventually cause tooth loss if left unchecked.
 
 Only a dentist can determine whether the needed treatment is cosmetic or if it requires an additional procedure to save your tooth.   Here are some possibilities of what may happen, depending on the severity of the injury.
