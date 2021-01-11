@@ -1,6 +1,7 @@
 ---
-title: "3 Reasons To See The Dentist"
-date: "2020-01-13"
+title: 3 Reasons To See The Dentist
+draft: false
+date: 2020-01-13T07:00:00.000Z
 ---
 
 ![](/images/21262839-0mcjHdIv-1.jpg)
