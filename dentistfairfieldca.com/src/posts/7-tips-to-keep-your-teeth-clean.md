@@ -1,11 +1,10 @@
 ---
-title: "7 Tips to Keep Your Teeth Clean"
-date: "2014-01-21"
+title: 7 Tips to Keep Your Teeth Clean
+draft: false
+date: 2020-12-21T07:00:00.000Z
+thumbnail: /images/7-Tips-to-Keep-Your-Teeth-Clean-image-300x240.jpg
 ---
-
 Brushing and going to the dentist at least twice per year is one of the best ways to keep your teeth clean. However, we can’t brush all the time, so here are seven tips that will help you keep your teeth clean each and every moment.
-
-![7-Tips-to-Keep-Your-Teeth-Clean-image](/images/7-Tips-to-Keep-Your-Teeth-Clean-image-300x240.jpg)
 
 **Eat fruits** Fruits are great ways to clean your teeth at any time of the day. Even if they have sugar, you should know that the sugar in them is far less dangerous to your teeth than the sugar that comes from sweets and energy drinks.
 
