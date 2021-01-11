@@ -1,6 +1,8 @@
 ---
-title: "What Does Dental Insurance Cover?"
-date: "2019-08-23"
+title: What Does Dental Insurance Cover?
+draft: false
+date: 2020-08-23T06:00:00.000Z
+thumbnail: /images/WhatisRestorativeDentistry.jpg
 ---
 
 Dental insurance can vary widely depending on many different factors. Some plans cover only the most basic of treatments. Others have annual dollar limits. Still others require a certain period of time to pass before certain procedures are covered. Watch this video where we give you helpful hints that will prepare you to discuss your insurance with Mark J. Warner DDS Inc.
