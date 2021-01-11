@@ -1,6 +1,7 @@
 ---
-title: "White Restorations-What are They?"
-date: "2013-08-30"
+title: White Restorations-What are They?
+draft: false
+date: 2020-08-30T06:00:00.000Z
 ---
 
 Today, we’re lucky because dentists have an array of products they use for the white restorations that are required in order to get back a smile that you’re proud to show. The array can include anything from composite resin fillings to porcelain fillings and crowns, and doesn’t stop until your white restoration is complete and blends perfectly with your other teeth, making it undetectable to the human eye.
