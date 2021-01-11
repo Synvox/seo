@@ -1,6 +1,7 @@
 ---
 title: "Your Dentist: Early Detection of Oral Cancer"
-date: "2013-11-15"
+draft: true
+date: 2013-11-15
 ---
 
 **How Dentists Play a Part in Early Detection of Oral Cancer**
