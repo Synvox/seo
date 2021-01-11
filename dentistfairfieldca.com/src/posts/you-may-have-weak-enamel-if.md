@@ -1,6 +1,29 @@
 ---
-title: "You May Have Weak Enamel If..."
-date: "2016-11-14"
+title: You May Have Weak Enamel If...
+draft: true
+date: 2021-01-18T07:00:00.000Z
+thumbnail: /images/dentist-fairfield-ca-tooth-enamel.jpeg
 ---
+![]()
 
-![Dentist Fairfield CA Tooth Enamel](/images/dentist-fairfield-ca-tooth-enamel-300x300.jpeg)Weak enamel can cause serious problems in your mouth.  After all, it is the enamel that protects your teeth from hot and cold temperatures, staining, and tooth decay.  Signs that you may have weak enamel like yellowing teeth, transparent-looking teeth, rounded teeth, and cracks in teeth are discussed at length [here at yourdentalhealthresource.com.](http://yourdentalhealthresource.com/top-signs-you-may-have-weak-enamel/)
+Weak enamel can cause serious problems in your mouth. After all, it is the enamel that protects your teeth from hot and cold temperatures, staining, and tooth decay. Enamel is also one of the strongest substances in our body, so if it is weak, it can lead to nerve damage in your teeth and other serious issues. 
+
+ Signs that you may have weak enamel -
+
+Yellowing teeth
+
+ Transparent-looking teeth
+
+ Rounded teeth
+
+Cracks or chips in teeth 
+
+Intense pain in tooth/teeth 
+
+Frequent tooth aches
+
+Sensitivity to hot or cold foods/drinks
+
+
+
+Visit our office if you are afraid you have weak enamel. We can work out a solution.
