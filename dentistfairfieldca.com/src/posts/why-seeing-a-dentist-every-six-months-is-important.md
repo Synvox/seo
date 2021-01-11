@@ -1,10 +1,11 @@
 ---
-title: "Why Seeing a Dentist Every Six Months is Important"
-date: "2013-09-27"
-coverImage: "SeeDentistEvery6Months.jpg"
+title: Why Seeing a Dentist Every Six Months is Important
+date: 2020-12-07T07:00:00.000Z
+coverImage: SeeDentistEvery6Months.jpg
+draft: false
+thumbnail: /images/seedentistevery6months-300x199.jpg
 ---
-
-[![SeeDentistEvery6Months](/images/SeeDentistEvery6Months-300x199.jpg)](/images/SeeDentistEvery6Months.jpg)We all know that going to a dentist at least twice per year is recommended. But, why do we really want to do that? Why seeing a dentist every six months is important seems to evade most of us. While it is true that some people need to go to the dentist more often than others, the general rule is six months. So, why this rule?
+[](/images/SeeDentistEvery6Months.jpg)We all know that going to a dentist at least twice per year is recommended. But, why do we really want to do that? Why seeing a dentist every six months is important seems to evade most of us. While it is true that some people need to go to the dentist more often than others, the general rule is six months. So, why this rule?
 
 Well, because the dentist, during the six month visit checks your teeth for tooth decay, evaluates the health of your gums, and examines the mouth for any indications of diabetes, vitamin deficiencies or oral cancer. The dentist or dental hygienist might also examine the face, the bite and the movement of the lower jaw joints. Not such a big deal right? It’s a regular check up to make sure everything is fine.
 
