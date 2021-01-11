@@ -1,6 +1,6 @@
 ---
 title: "Your Dentist: Early Detection of Oral Cancer"
-draft: true
+draft: false
 date: 2013-11-15
 ---
 
