@@ -1,9 +1,10 @@
 ---
-title: "When is the Best Time to Floss?"
-date: "2014-01-08"
+title: When is the Best Time to Floss?
+draft: false
+date: 2020-01-08T07:00:00.000Z
+thumbnail: /images/Best-Time-to-Floss-image.jpg
 ---
-
-We know that if we want to keep proper dental hygiene, then we don’t only need to brush and use mouthwash, but we also need to floss. This is because flossing ensures that we get rid of all those little pieces of food that water doesn't even come close to cleaning, and brushing doesn't really get the job done.[![Best-Time-to-Floss-image](/images/Best-Time-to-Floss-image-300x199.jpg)](/images/Best-Time-to-Floss-image.jpg)
+We know that if we want to keep proper dental hygiene, then we don’t only need to brush and use mouthwash, but we also need to floss. This is because flossing ensures that we get rid of all those little pieces of food that water doesn't even come close to cleaning, and brushing doesn't really get the job done
 
 We all remember that when we were young, our parents or our dentist used to tell us to floss at least one time per day, and that we need to also brush two times per day, in the mornings and the evenings. This is when we all realized that flossing is important if we want to make sure that we have a healthy smile. Truth is that if we don’t floss, a lot of bacteria are left in our mouth, as the toothbrush doesn't reach all those areas that floss can reach.
 
