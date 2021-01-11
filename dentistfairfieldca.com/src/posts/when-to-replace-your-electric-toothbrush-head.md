@@ -1,11 +1,12 @@
 ---
-title: "When To Replace Your Electric Toothbrush Head"
-date: "2018-09-20"
+title: When To Replace Your Electric Toothbrush Head
+draft: false
+date: 2020-09-20T06:00:00.000Z
+thumbnail: /images/when-to-change-your-electric-toothbrush-head-1024x682.jpg
 ---
-
 Many people think that they get a better clean from using an electric toothbrush.  And they are oftentimes correct.  But does that mean that the standard recommendation to change your toothbrush every 3-4 months no longer applies?  Not really.
 
-The bristles of an electric toothbrush head still wear over time and become less effective, just like a regular toothbrush.  The difference is you only have to change the head instead of the entire toothbrush.![](/images/when-to-change-your-electric-toothbrush-head-1024x682.jpeg)
+The bristles of an electric toothbrush head still wear over time and become less effective, just like a regular toothbrush.  The difference is you only have to change the head instead of the entire toothbrush.
 
 There are situations when you would also need to replace the head more frequently.  For instance, if you have tooth decay or gum disease and have received treatment for it, your dentist may recommend a new replacement head.  The reason for this is because even after you get a cavity filled or have a deep cleaning for gum disease, the bacteria that caused your tooth decay and gum disease may still be present on your toothbrush.  By switching it out, you will prevent spreading it on your newly cleaned/treated teeth and gums.
 
