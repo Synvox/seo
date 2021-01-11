@@ -1,7 +1,8 @@
 ---
 title: "Your Dentist: Early Detection of Oral Cancer"
 draft: false
-date: 2013-11-15
+date: 2020-11-14T07:00:00.000Z
+thumbnail: /images/dentist-fairfield-oral-cancer-300x217.jpg
 ---
 
 **How Dentists Play a Part in Early Detection of Oral Cancer**
