@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
 import { darken } from "polished";
 import { SITE_WIDTH } from "../vars";
@@ -15,22 +15,32 @@ const slideSrcs = [
   "/slider/e.jpeg",
 ];
 
+const wait = () => new Promise((r) => setTimeout(r, 6400));
+
 function Hero() {
+  const [srcs, setSrcs] = useState([slideSrcs[0]]);
+  useEffect(() => {
+    async function loadLazy() {
+      for (let i = 1; i < slideSrcs.length; i++) {
+        await wait();
+        const src = slideSrcs[i];
+        setSrcs((existing) => [...existing, src]);
+      }
+    }
+
+    if (typeof window !== "undefined") loadLazy();
+  }, []);
+
   return (
-    <Container
-    // style={{
-    //   backgroundImage: `url(/beach.jpg)`,
-    // }}
-    >
+    <Container>
       <Inner>
         <Slider>
-          {slideSrcs.map((src, index) => (
+          {srcs.map((src) => (
             <Slide
               key={src}
               alt="Person smiling"
               style={{
                 backgroundImage: `url("${src}")`,
-                animationDelay: `${index * 6.4}s`,
               }}
             />
           ))}
