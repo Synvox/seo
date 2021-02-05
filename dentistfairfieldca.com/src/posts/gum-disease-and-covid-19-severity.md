@@ -2,6 +2,7 @@
 title: Gum Disease and Covid-19 Severity
 draft: false
 date: 2021-02-08T22:03:44.403Z
+thumbnail: /images/gum-disease-oral-cancer-risk-link-300x203.jpg
 ---
 With all the news about the Coronavirus, we can’t forget about what our oral health can do for us. If we don’t have good oral health, it doesn’t just affect our mouths, it can affect our entire body, and even increase Covid-19 complications and severity. 
 
