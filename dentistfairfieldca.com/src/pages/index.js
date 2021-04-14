@@ -70,6 +70,8 @@ function Index() {
           Road serves Fairfield, Vacaville, and surrounding Solano County
           communities.
         </p>
+        <h3>Insurance</h3>
+        <p>Unfortunately at this time we do not accept Medicare.</p>
         <Aside>
           <iframe
             src="https://maps.google.com/maps?q=mark+j.+warner+dds+dentist+fairfield+ca&amp;gl=us&amp;hl=en&amp;t=m&amp;ie=UTF8&amp;view=map&amp;cid=17604434272364569871&amp;ll=38.259143,-122.067053&amp;spn=0.008087,0.011566&amp;z=16&amp;iwloc=A&amp;output=embed"
