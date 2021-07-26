@@ -35,7 +35,7 @@ const Container = styled.article`
     font-size: 18px;
     line-height: 1.4em;
     margin-bottom: 2em;
-    max-width: 60ch;
+    max-width: 75ch;
   }
   ul,
   li {

@@ -71,7 +71,25 @@ function Index() {
           communities.
         </p>
         <h3>Insurance</h3>
-        <p>Unfortunately at this time we do not accept Medicare.</p>
+        <InsuranceLogos>
+          <div>
+            <img src="/delta-dental.png" alt="Delta Dental Premier Provider" />
+            <p>Delta Dental Premier Provider</p>
+          </div>
+          <div>
+            <img src="/anthem.svg" alt="" />
+            <p>Anthem Grid Plus</p>
+          </div>
+        </InsuranceLogos>
+        <p
+          style={{
+            textAlign: "center",
+            fontSize: "0.975em",
+            maxWidth: "unset",
+          }}
+        >
+          Unfortunately we do not accept Medicare at this time.
+        </p>
         <Aside>
           <iframe
             src="https://maps.google.com/maps?q=mark+j.+warner+dds+dentist+fairfield+ca&amp;gl=us&amp;hl=en&amp;t=m&amp;ie=UTF8&amp;view=map&amp;cid=17604434272364569871&amp;ll=38.259143,-122.067053&amp;spn=0.008087,0.011566&amp;z=16&amp;iwloc=A&amp;output=embed"
@@ -87,6 +105,23 @@ function Index() {
     </>
   );
 }
+
+const InsuranceLogos = styled.div`
+  display: flex;
+  & > div {
+    width: calc(50% - 40px);
+    margin: 0 20px;
+    text-align: center;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p {
+      margin: 0;
+    }
+  }
+`;
 
 const ResponsiveImage = styled.img`
   float: right;
