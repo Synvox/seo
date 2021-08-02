@@ -20,3 +20,5 @@ Dr. Warner has been my dentist for along time. Recently, I developed some nerve 
 Everyone at the office is friendly and helpful in every way. I had a great experience as a new patient. Prices are reasonable and options in which to solve specific issues are explained in detail ! Just flat out great people with great vibes !! Thanks again guys for the new smile :) !! -Rashaad A.
 
 I am extremely happy and satisfied! Dr Warner did a great job and no words can explain how happy and thankful I am. Thanks to Kristin for filling me in on that same day. Everyone is Professional, courteous, and friendly staff made me feel like family! I would highly recommend this place.- M S
+
+I have gone here since a kid and it has always been a pleasant experience! Dr. Warner and his staff are friendly and know what they are doing. Thank you for all you do! - Lexi A.
