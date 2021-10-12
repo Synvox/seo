@@ -1,5 +1,5 @@
 ---
-title: What does impaction mean?
+title: What Does Impaction Mean?
 draft: false
 date: 2021-10-13T18:49:56.672Z
 thumbnail: /images/dentist-fairfield-ca-impacted-wisdom-teeth-e1529513695815.jpeg
