@@ -71,6 +71,15 @@ function Index() {
           communities.
         </p>
         <h3>Insurance</h3>
+        <p
+          style={{
+            fontSize: "0.975em",
+            maxWidth: "unset",
+            textAlign: "center",
+          }}
+        >
+          In network with
+        </p>
         <InsuranceLogos>
           <div>
             <img src="/delta-dental.png" alt="Delta Dental Premier Provider" />
@@ -81,14 +90,15 @@ function Index() {
             <p>Anthem Grid Plus</p>
           </div>
         </InsuranceLogos>
-        <p
-          style={{
-            textAlign: "center",
-            fontSize: "0.975em",
-            maxWidth: "unset",
-          }}
-        >
-          Unfortunately we do not accept Medicare at this time.
+        <p>
+          Although we are only in network with the above insurance{" "}
+          <u>
+            we <strong>do</strong> accept most insurances under the out of
+            network benefit for the plan
+          </u>
+          . Call and we would be happy to check for your particular plan what
+          your benefits would be here at our office. Unfortunately we do not
+          accept Medicare at this time.
         </p>
         <Aside>
           <iframe
