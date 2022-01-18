@@ -25,7 +25,7 @@ function Footer() {
           <br />
           Hours: Mon-Wed 9:00 AM – 5:00 PM (Closed for lunch 1 PM - 2 PM)
           <br />
-          Closed Friday, Saturday, and Sunday
+          Closed Thursday, Friday, Saturday, and Sunday
         </Address>
         <Center>
           <Stack horizontal>
