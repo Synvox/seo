@@ -23,7 +23,7 @@ function Footer() {
           <br />
           Phone: 707-422-7633
           <br />
-          Hours: Mon-Thu 9:00 AM – 5:00 PM
+          Hours: Mon-Wed 9:00 AM – 5:00 PM (Closed for lunch 1 PM - 2 PM)
           <br />
           Closed Friday, Saturday, and Sunday
         </Address>
