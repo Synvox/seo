@@ -25,7 +25,7 @@ function Footer() {
           <br />
           Hours: Mon-Wed 9:00 AM – 5:00 PM (Closed for lunch 1 PM - 2 PM)
           <br />
-          Closed Thursday, Friday, Saturday, and Sunday
+          During non-business hours, we are here to answer your calls and handle your dental emergencies.
         </Address>
         <Center>
           <Stack horizontal>
