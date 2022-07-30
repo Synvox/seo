@@ -11,7 +11,7 @@ function ContactUs() {
         <meta name="description" content="You can reach us at 707-422-7633" />
       </Head>
       <Aside>
-        <img src="/office.jpg" height="80" alt="Mark Warner Office" />
+        <img src="/office.jpg" alt="Mark Warner Office" />
       </Aside>
       <h2>
         Contact Us
