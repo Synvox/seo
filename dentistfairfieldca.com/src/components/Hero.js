@@ -46,14 +46,6 @@ function Hero() {
           ))}
           <Caption>
             <Page style={{ margin: 0, padding: 0 }}>
-              <h2>We are happy to be open again!</h2>
-              <p>
-                Please wear a mask to your appointment. If you feel sick, call
-                and reschedule.{" "}
-                <a href="/blog/we-are-open">
-                  See our COVID-19 page for more information
-                </a>
-              </p>
             </Page>
           </Caption>
         </Slider>
