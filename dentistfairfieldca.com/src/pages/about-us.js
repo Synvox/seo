@@ -19,7 +19,7 @@ function AboutUs() {
           src="https://www.youtube.com/embed/YwGUMn3wXOM"
           width="560"
           height="315"
-          frameborder="0"
+          frameBorder="0"
           allowFullScreen="allowfullscreen"
         ></iframe>
       </Aside>
