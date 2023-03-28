@@ -1,7 +1,7 @@
 ---
 title: What are Dental Implants and Why Consider Them
 draft: false
-date: 2023-04-05T19:21:05.978Z
+date: 2023-03-28T19:21:05.978Z
 thumbnail: /images/rudi-fargo-fx7q750epha-unsplash.jpg
 ---
   
