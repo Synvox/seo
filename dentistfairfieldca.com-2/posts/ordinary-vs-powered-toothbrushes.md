@@ -1,0 +1,10 @@
+---
+title: "Ordinary vs. Powered Toothbrushes"
+date: "2014-02-22"
+---
+
+It’s no question that there is a power struggle to encourage good brushing and flossing habits with young ones and the powered toothbrushes are good weapons in the battle at morning and night!  Powered toothbrushes have been especially praised for having the power to engage young kids and excite them about brushing their teeth with fancy, decorated handles while they play music and tickle their gums. They also have been seen to be especially useful for older people who suffer from a motor disability or arthritis as it does the majority of the work for you in terms of oscillation and spinning.[![ordinary-vs-Powered-Toothbrushes-image](/images/ordinary-vs-Powered-Toothbrushes-image-300x201.jpg)](/images/ordinary-vs-Powered-Toothbrushes-image.jpg)
+
+The rotating-oscillating heads are constantly evolving to beat out the competition for the fanciest toothbrush on the market.  The natural result is that powered toothbrushes continue to improve, which is good for consumers. There are often adjustable power levels that can speed up bristle movement to remove even more plaque from your teeth. Some powered toothbrushes work amazingly hard to get inside every nook and cranny and to really clean your mouth.  In addition, removable heads prolong the life of these higher-priced gadgets.
+
+However, electric toothbrushes don’t blow traditional toothbrushes out of the water completely. When it comes down to it, more important than anything is the frequency of brushing in your daily oral hygiene route and the quality of your brushing, no matter what device you use. If you do a really great job with a manual toothbrush and actively reach for the more difficult places to reach in your mouth, there’s no problem with using an ordinary toothbrush. On the other hand you can use a powered toothbrush and only clean the front four teeth you haven’t done yourself any favors. Good reach and consistency in your daily cleaning is the only way to get a great brushing.

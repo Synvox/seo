@@ -1,9 +1,6 @@
-import type { V2_MetaFunction } from "@remix-run/cloudflare";
-import { About } from "~/components/About";
-import { Blog } from "~/components/Blog";
-import { Hero } from "~/components/Hero";
-import { Insurance } from "~/components/Insurance";
-import { Testimonials } from "~/components/Testimonials";
+import { json, LoaderArgs, type V2_MetaFunction } from "@remix-run/cloudflare";
+import { useLoaderData } from "@remix-run/react";
+import { Blog, getMeta, getPosts } from "~/components/Blog";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -12,10 +9,22 @@ export const meta: V2_MetaFunction = () => {
   ];
 };
 
+export function loader(ctx: LoaderArgs) {
+  const url = new URL(ctx.request.url);
+  const page = Number(url.searchParams.get("page")) || 0;
+
+  return json({
+    posts: getPosts(page),
+    page,
+    meta: getMeta(),
+  });
+}
+
 export default function Index() {
+  const { posts, page, meta } = useLoaderData<typeof loader>();
   return (
     <>
-      <Blog />
+      <Blog posts={posts} page={page} meta={meta} />
     </>
   );
 }

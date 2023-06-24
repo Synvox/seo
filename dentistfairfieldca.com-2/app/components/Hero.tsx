@@ -1,3 +1,5 @@
+import { Link } from "@remix-run/react";
+
 export function getHeadline() {
   const headlines = [
     {
@@ -65,14 +67,14 @@ export function Hero({ headline }: { headline: Headline }) {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <div className="hidden sm:mt-32 sm:flex lg:mt-16">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                View one of our offers &nbsp;
-                <a
-                  href="/contact"
+                Get a Free Consultation &nbsp;
+                <Link
+                  to="/contact"
                   className="whitespace-nowrap font-semibold text-teal-600"
                 >
                   <span className="absolute inset-0" aria-hidden="true" />
-                  More Info <span aria-hidden="true">&rarr;</span>
-                </a>
+                  Contact Us <span aria-hidden="true">&rarr;</span>
+                </Link>
               </div>
             </div>
             <h1 className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">

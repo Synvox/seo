@@ -1,0 +1,8 @@
+---
+title: "Botox and Dentistry"
+date: "2014-10-14"
+---
+
+[![botox-and-dentistry](/images/botox-and-dentistry-300x252.jpg)](/images/botox-and-dentistry.jpg)Many skeptics believe that the inclusion of Botox in the world of dentistry is merely a money-making, crazy marketing scheme which will inevitably cheapen the industry. Botox, in popular culture, finds its home among celebrities who are fighting the aging process but does it really have a home in your dentist’s office? Patients often go to the dentist with a beautiful outcome in mind and only go through cleaning and treatment procedures to avoid ugly outcomes in the future. A growing collaboration between health, functionality, and facial aesthetics is beginning to prove that there may be a place for Botox in the office after all.  
+Currently, many Botox treatments are applied and distributed by low-trained medical professionals; some don’t even hold medical degrees. Dentists are highly trained professionals with extensive knowledge, training, and experience working around the head and within the mouth. Precise injections are often required in daily work so the physical treatment requirements of Botox are undoubtedly within the range of a dental practitioner.  
+Dermal filler and Botox may be a viable tool for dentists who are looking to solve their patient’s aesthetic complaints. A patient’s obsession with a thin upper lip and the open ‘black triangles’ between teeth at the gum line may be fixed with a simple injection of Botox. Additionally, outside of the purely aesthetic features, there are several therapeutic uses within dentistry. TMD patients, bruxism cases, facial pain complaints, angular cheilitis treatments, and patients with muscle hyperactivity can all benefit from the use of Botox.

@@ -1,0 +1,6 @@
+---
+title: "Smiling Can Make You Happier"
+date: "2019-12-23"
+---
+
+We hear something funny, we laugh. Something sad, we cry. Something nice, we smile. Smiling can be fun! That’s why we smile in the first place. Did you know that if you smile more, you are more likely to feel happy? Smiling starts a chemical reaction in the brain, making dopamine and serotonin. Dopamine is our “happy” chemical in the body. Serotonin helps us reduce stress. Happiness also boosts our immune system.and resistance. The act of simply smiling can help your health. Now that’s amazing! Your brain apparently can’t tell if you are actually feeling joy, or just pretending. The brain doesn’t care, it will just assume you are feeling humor. Smiling can also reduce stress and lower your heart rate. Even forcing yourself to do it can result in better health. Smiling is usually easy while you are happy, and not when you’re sad.. duh. If it isn’t too hard while you are in the dumps, try smiling. It may help you feel happier sooner.! Now smiling is always more fun when you aren’t embarrassed by your teeth. If you are, come on by and ask us how we can help you feel more confident in your smile! Nice teeth are just another reason to smile! ![](/images/david-hurley-THzlnvhHhDE-unsplash-1024x1024.jpg)
