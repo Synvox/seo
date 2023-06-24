@@ -41,6 +41,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <div className="hidden  p-1 lg:flex lg:gap-x-3">
               {navigation.map((item) => (
                 <NavLink
+                  prefetch="intent"
                   key={item.name}
                   to={item.href}
                   className={({ isActive }) =>
