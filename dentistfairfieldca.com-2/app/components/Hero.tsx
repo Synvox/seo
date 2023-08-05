@@ -57,9 +57,25 @@ export function getHeadline() {
   return headlines[Math.floor(Math.random() * headlines.length)];
 }
 
+export function getPhoto() {
+  const images = [
+    "/stock-photos/home-1.png",
+    "/stock-photos/home-2.png",
+    "/stock-photos/home-3.png",
+    "/stock-photos/home-4.png",
+  ];
+  return images[Math.floor(Math.random() * images.length)];
+}
+
 type Headline = ReturnType<typeof getHeadline>;
 
-export function Hero({ headline }: { headline: Headline }) {
+export function Hero({
+  headline,
+  photo,
+}: {
+  headline: Headline;
+  photo: string;
+}) {
   return (
     <div className="relative bg-white">
       <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
@@ -96,8 +112,8 @@ export function Hero({ headline }: { headline: Headline }) {
         <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
           <img
             className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
-            src="/smiles/home.jpeg"
-            alt=""
+            src={photo}
+            alt="People smiling"
           />
         </div>
       </div>

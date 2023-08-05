@@ -65,7 +65,7 @@ export function Contact() {
                 <div className="relative">
                   <img
                     src="/smiles/a.jpeg"
-                    alt=""
+                    alt="Smiling"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -75,7 +75,7 @@ export function Contact() {
                 <div className="relative">
                   <img
                     src="/smiles/b.jpeg"
-                    alt=""
+                    alt="Smiling"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -83,7 +83,7 @@ export function Contact() {
                 <div className="relative">
                   <img
                     src="/smiles/c.jpeg"
-                    alt=""
+                    alt="Smiling"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -93,7 +93,7 @@ export function Contact() {
                 <div className="relative">
                   <img
                     src="/smiles/d.jpeg"
-                    alt=""
+                    alt="Smiling"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -101,7 +101,7 @@ export function Contact() {
                 <div className="relative">
                   <img
                     src="/smiles/e.jpeg"
-                    alt=""
+                    alt="Smiling"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />

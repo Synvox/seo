@@ -8,7 +8,7 @@ export function About() {
               <img
                 className="absolute inset-0 h-full w-full object-cover"
                 src="/drwarner.png"
-                alt=""
+                alt="Dr. Mark Warner"
               />
             </div>
           </div>

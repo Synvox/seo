@@ -8,10 +8,7 @@ import { useLoaderData } from "@remix-run/react";
 import { Blog, getPost, getPosts } from "~/components/Blog";
 
 export const meta: V2_MetaFunction = () => {
-  return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
+  return [{ title: "Blog • Mark J Warner, DDS" }];
 };
 
 export function loader(ctx: LoaderArgs) {

@@ -1,7 +1,16 @@
 import { ArrowRightCircleIcon } from "@heroicons/react/20/solid";
-import { LoaderArgs, json, redirect } from "@remix-run/cloudflare";
+import {
+  LoaderArgs,
+  V2_MetaFunction,
+  json,
+  redirect,
+} from "@remix-run/cloudflare";
 import { useLoaderData } from "@remix-run/react";
 import { treatments } from "~/components/Treatments";
+
+export const meta: V2_MetaFunction = () => {
+  return [{ title: "Treatment • Mark J Warner, DDS" }];
+};
 
 export function loader(ctx: LoaderArgs) {
   const treatmentId = ctx.params.id;

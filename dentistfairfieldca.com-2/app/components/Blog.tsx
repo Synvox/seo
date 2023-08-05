@@ -60,7 +60,7 @@ export function Blog({
                     <>
                       <img
                         src={post.thumbnail}
-                        alt=""
+                        alt={post.title}
                         className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
                       />
                       <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />

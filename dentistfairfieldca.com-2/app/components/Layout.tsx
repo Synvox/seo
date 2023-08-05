@@ -9,7 +9,7 @@ import { Link, NavLink, useLocation, useNavigation } from "@remix-run/react";
 const navigation = [
   { name: "About Dr. Warner", href: "/about" },
   { name: "Treatments", href: "/treatments" },
-  { name: "Blog", href: "/blog" },
+  // { name: "Blog", href: "/blog" },
   { name: "Contact Us", href: "/contact" },
 ];
 
@@ -36,7 +36,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex items-center gap-x-12">
             <Link to="/" className="-m-3 p-1.5">
               <span className="sr-only">Mark J Warner, D.D.S.</span>
-              <img className="h-14 w-auto" src="/logo.jpg" alt="" />
+              <img className="h-14 w-auto" src="/logo.jpg" alt="Logo" />
             </Link>
             <div className="hidden  p-1 lg:flex lg:gap-x-3">
               {navigation.map((item) => (

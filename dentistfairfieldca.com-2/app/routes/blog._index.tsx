@@ -4,8 +4,7 @@ import { Blog, getMeta, getPosts } from "~/components/Blog";
 
 export const meta: V2_MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Blog • Mark J Warner, DDS" },
   ];
 };
 

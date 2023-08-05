@@ -6,10 +6,7 @@ import { Testimonials } from "~/components/Testimonials";
 import { Treatments } from "~/components/Treatments";
 
 export const meta: V2_MetaFunction = () => {
-  return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
+  return [{ title: "Treatments • Mark J Warner, DDS" }];
 };
 
 export default function TreatmentsRoute() {

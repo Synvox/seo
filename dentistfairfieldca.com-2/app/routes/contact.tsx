@@ -6,10 +6,7 @@ import { Insurance } from "~/components/Insurance";
 import { Testimonials } from "~/components/Testimonials";
 
 export const meta: V2_MetaFunction = () => {
-  return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
+  return [{ title: "Contact • Mark J Warner, DDS" }];
 };
 
 export default function ContactRoute() {
