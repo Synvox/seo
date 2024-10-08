@@ -4,8 +4,6 @@ draft: false
 date: 2024-10-08T20:39:59.321Z
 thumbnail: /images/chris-lawton-5ihz5whosqe-unsplash.jpg
 ---
-### Seasonal Dental Tips: Keeping Your Smile Bright Year-Round
-
 As the seasons change, so do our habits and routines. While you might be gearing up for cozy fall evenings or summer barbecues, it’s important to keep your dental health in mind throughout the year. Here are some seasonal dental tips to help you maintain a bright, healthy smile no matter the time of year!
 
 #### **Spring: Time for Renewal**
